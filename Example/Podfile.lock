@@ -1,0 +1,78 @@
+PODS:
+  - MessageTrash (0.0.1)
+  - MineCommonUtils (1.0.0):
+    - MessageTrash (~> 0.0.1)
+    - MineCommonUtils/ClosureManage (= 1.0.0)
+    - MineCommonUtils/CommonAdaptive (= 1.0.0)
+    - MineCommonUtils/CoverScope (= 1.0.0)
+    - MineCommonUtils/DistributeSelector (= 1.0.0)
+    - MineCommonUtils/DynamicProperty (= 1.0.0)
+    - MineCommonUtils/FileManager (= 1.0.0)
+    - MineCommonUtils/FunctionOperate (= 1.0.0)
+    - MineCommonUtils/Hierarchy (= 1.0.0)
+    - MineCommonUtils/OrientationSize (= 1.0.0)
+    - MineCommonUtils/Persistent (= 1.0.0)
+    - MineCommonUtils/ResponderChain (= 1.0.0)
+    - MineCommonUtils/Reuse (= 1.0.0)
+    - MineCommonUtils/StructureView (= 1.0.0)
+    - MineCommonUtils/Style (= 1.0.0)
+    - MineCommonUtils/SubClasses (= 1.0.0)
+    - MineCommonUtils/SubClasses (= 1.0.0)
+    - MineCommonUtils/TimeConvert (= 1.0.0)
+    - MineCommonUtils/TypeEnsure (= 1.0.0)
+    - MineCommonUtils/WidgetPosition (= 1.0.0)
+  - MineCommonUtils/ClosureManage (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/CommonAdaptive (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/CoverScope (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/DistributeSelector (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/DynamicProperty (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/FileManager (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/FunctionOperate (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/Hierarchy (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/OrientationSize (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/Persistent (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/ResponderChain (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/Reuse (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/StructureView (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/Style (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/SubClasses (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/TimeConvert (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/TypeEnsure (1.0.0):
+    - MessageTrash (~> 0.0.1)
+  - MineCommonUtils/WidgetPosition (1.0.0):
+    - MessageTrash (~> 0.0.1)
+
+DEPENDENCIES:
+  - MineCommonUtils (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MessageTrash
+
+EXTERNAL SOURCES:
+  MineCommonUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MessageTrash: 7925feafd22318f4049253b8ed4a457517af1875
+  MineCommonUtils: 48f468441a980c5213a1e7b65e6ebad58e037770
+
+PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
+
+COCOAPODS: 1.5.0
