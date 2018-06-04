@@ -121,6 +121,6 @@ MineCommonUtils for me
   end
 
 
-  s.dependency 'MessageTrash', '~> 0.0.1'
+  s.dependency 'MessageTrash'
 
 end
