@@ -2,6 +2,7 @@ PODS:
   - MessageTrash (0.0.1)
   - MineCommonUtils (1.0.1):
     - MessageTrash
+    - MineCommonUtils/Chain (= 1.0.1)
     - MineCommonUtils/ClosureManage (= 1.0.1)
     - MineCommonUtils/CommonAdaptive (= 1.0.1)
     - MineCommonUtils/CoverScope (= 1.0.1)
@@ -21,6 +22,8 @@ PODS:
     - MineCommonUtils/TimeConvert (= 1.0.1)
     - MineCommonUtils/TypeEnsure (= 1.0.1)
     - MineCommonUtils/WidgetPosition (= 1.0.1)
+  - MineCommonUtils/Chain (1.0.1):
+    - MessageTrash
   - MineCommonUtils/ClosureManage (1.0.1):
     - MessageTrash
   - MineCommonUtils/CommonAdaptive (1.0.1):
@@ -71,7 +74,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MessageTrash: 7925feafd22318f4049253b8ed4a457517af1875
-  MineCommonUtils: 02f200c59e212248a16c00394bc0acdeb3c56f95
+  MineCommonUtils: 03c490c8fc76e8291bcba09872b27124e7bff0dc
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 

@@ -11,6 +11,7 @@
 #endif
 
 #import "MineCommonUtils.h"
+#import "UIView+Chain.h"
 #import "NSObject+ClosureManage.h"
 #import "CommonAdaptive.h"
 #import "UIView+CoverScope.h"

@@ -149,6 +149,11 @@
       "name": "CoverScope",
       "source_files": "MineCommonUtils/UIView+CoverScope.{h,m}",
       "public_header_files": "MineCommonUtils/UIView+CoverScope.h"
+    },
+    {
+      "name": "Chain",
+      "source_files": "MineCommonUtils/UIView+Chain.{h,m}",
+      "public_header_files": "MineCommonUtils/UIView+Chain.h"
     }
   ]
 }

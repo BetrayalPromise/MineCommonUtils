@@ -61,3 +61,6 @@
 
 /// 获取安全区范围
 #import "UIView+CoverScope.h"
+
+/// 处理超出范围响应
+#import "UIView+Chain.h"
