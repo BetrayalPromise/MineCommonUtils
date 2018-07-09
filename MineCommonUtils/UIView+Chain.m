@@ -49,7 +49,7 @@
 }
 
 - (BOOL)ableRespose {
-    return objc_getAssociatedObject(self, _cmd) != nil ? objc_getAssociatedObject(self, _cmd) : NO;
+    return objc_getAssociatedObject(self, _cmd) != nil ? [objc_getAssociatedObject(self, _cmd) boolValue] : NO;
 }
 
 @end
