@@ -63,7 +63,7 @@ MineCommonUtils for me
     ss.public_header_files = 'MineCommonUtils/CommonAdaptive.h'
   end
 
-  s.subspec 'ResponderChain' do |ss|
+  s.subspec 'Route' do |ss|
     ss.source_files = 'MineCommonUtils/UIResponder+ResponderChainExtraInformation.{h,m}'
     ss.public_header_files = 'MineCommonUtils/UIResponder+ResponderChainExtraInformation.h'
   end

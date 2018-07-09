@@ -7,6 +7,7 @@
 //
 
 #import "QMTVViewController.h"
+#import <MineCommonUtils/MineCommonUtils.h>
 
 @interface QMTVViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray * a =  [NSArray findSubClass];
+    NSLog(@"%@", a);
+    
+    NSArray * b =  [NSMutableArray findSubClass];
+    NSLog(@"%@", b);
 }
 
 - (void)didReceiveMemoryWarning
