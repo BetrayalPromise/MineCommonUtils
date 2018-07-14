@@ -24,6 +24,7 @@
 #import "UIView+Hierarchy.h"
 #import "UIViewController+DisplayController.h"
 #import "UIScreen+OrientationSize.h"
+#import "NSObject+PerformSelector.h"
 #import "NSObject+Persistent.h"
 #import "FastCoder.h"
 #import "UICollectionView+Reuse.h"

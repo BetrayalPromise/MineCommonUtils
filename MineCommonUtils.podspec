@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
@@ -120,12 +120,15 @@ MineCommonUtils for me
     ss.public_header_files = 'MineCommonUtils/UIView+CoverScope.h'
   end
 
-s.subspec 'Chain' do |ss|
+  s.subspec 'Chain' do |ss|
     ss.source_files = 'MineCommonUtils/UIView+Chain.{h,m}'
     ss.public_header_files = 'MineCommonUtils/UIView+Chain.h'
-end
+  end
 
-
+  s.subspec 'PerformSelector' do |ss|
+    ss.source_files = 'MineCommonUtils/NSObject+PerformSelector.{h,m}'
+    ss.public_header_files = 'MineCommonUtils/NSObject+PerformSelector.h'
+  end
 
   s.dependency 'MessageTrash'
 

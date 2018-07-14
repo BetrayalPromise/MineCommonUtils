@@ -64,3 +64,6 @@
 
 /// 处理超出范围响应
 #import "UIView+Chain.h"
+
+/// 传递多参数
+#import "NSObject+PerformSelector.h"
