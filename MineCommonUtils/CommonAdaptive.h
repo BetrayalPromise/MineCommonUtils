@@ -37,19 +37,19 @@ typedef NS_ENUM(NSUInteger, AdaptiveRefer) {
 + (instancetype _Nonnull)sharedInstance;
 + (CGFloat)widgetCustomAdaptive:(void (^_Nonnull)(DeviceSize *_Nonnull size))closure;
 
-+ (CGFloat)widgetFontAdaptive:(AdaptiveFont)type designSize:(CGFloat)designSize;
++ (CGFloat)widgetFontAdaptive:(AdaptiveFont)type size:(CGFloat)size;
 /*
     参照X轴或者Y轴的标准
  */
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize multiply:(CGFloat)multiply minitrim:(CGFloat)minitrim;
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize multiply:(CGFloat)multiply;
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize minitrim:(CGFloat)minitrim;
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize;
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate trim:(CGFloat)trim;
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate;
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size trim:(CGFloat)trim;
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size;
 
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure multiply:(CGFloat)multiply minitrim:(CGFloat)minitrim;
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure multiply:(CGFloat)multiply;
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure minitrim:(CGFloat)minitrim;
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure;
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate trim:(CGFloat)trim;
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate;
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value trim:(CGFloat)trim;
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value;
 
 @end
 

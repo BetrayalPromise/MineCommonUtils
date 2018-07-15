@@ -61,37 +61,37 @@
     return CGSizeMake(currentWidth, currentHight);
 }
 
-+ (CGFloat)widgetFontAdaptive:(AdaptiveFont)type designSize:(CGFloat)designSize {
++ (CGFloat)widgetFontAdaptive:(AdaptiveFont)type size:(CGFloat)size {
     CGSize deviceSize = [self deviceSize];
     CommonAdaptive *adaptive = [CommonAdaptive sharedInstance];
     if (type == AdaptiveFontSelfAdaption) {
         if (adaptive.designTemplate == DesignTemplateInch35 || adaptive.designTemplate == DesignTemplateInch40) {
             if ((deviceSize.width == 320 && deviceSize.height == 480) || (deviceSize.width == 320 && deviceSize.height == 568)) {
-                return designSize;
+                return size;
             } else if ((deviceSize.width == 375 && deviceSize.height == 667) || (deviceSize.width == 375 && deviceSize.height == 812)) {
-                return designSize + 2.5;
+                return size + 2.5;
             } else if (deviceSize.width == 414 && deviceSize.height == 736) {
-                return designSize + 5;
+                return size + 5;
             }
             NSAssert(NO, @"not support iPhone size");
             return 0.0;
         } else if (adaptive.designTemplate == DesignTemplateInch47 || adaptive.designTemplate == DesignTemplateInch58) {
             if ((deviceSize.width == 320 && deviceSize.height == 480) || (deviceSize.width == 320 && deviceSize.height == 568)) {
-                return designSize - 2.5;
+                return size - 2.5;
             } else if ((deviceSize.width == 375 && deviceSize.height == 667) || (deviceSize.width == 375 && deviceSize.height == 812)) {
-                return designSize;
+                return size;
             } else if (deviceSize.width == 414 && deviceSize.height == 736) {
-                return designSize + 2.5;
+                return size + 2.5;
             }
             NSAssert(NO, @"not support iPhone size");
             return 0.0;
         } else if (adaptive.designTemplate == DesignTemplateInch55) {
             if ((deviceSize.width == 320 && deviceSize.height == 480) || (deviceSize.width == 320 && deviceSize.height == 568)) {
-                return designSize - 5;
+                return size - 5;
             } else if ((deviceSize.width == 375 && deviceSize.height == 667) || (deviceSize.width == 375 && deviceSize.height == 812)) {
-                return designSize - 2.5;
+                return size - 2.5;
             } else if (deviceSize.width == 414 && deviceSize.height == 736) {
-                return designSize;
+                return size;
             }
             NSAssert(NO, @"not support iPhone size");
             return 0.0;
@@ -99,21 +99,21 @@
         NSAssert(NO, @"not support iPhone design size");
         return 0.0;
     } else if (type == AdaptiveFontFixation) {
-        return designSize;
+        return size;
     } else if (type == AdaptiveFontCommon) {
         if (adaptive.designTemplate == DesignTemplateInch35 || adaptive.designTemplate == DesignTemplateInch40 || adaptive.designTemplate == DesignTemplateInch47) {
             if ((deviceSize.width == 320 && deviceSize.height == 480) || (deviceSize.width == 320 && deviceSize.height == 568) || (deviceSize.width == 375 && deviceSize.height == 667) || (deviceSize.width == 375 && deviceSize.height == 812)) {
-                return designSize;
+                return size;
             } else if (deviceSize.width == 414 && deviceSize.height == 736) {
-                return designSize * 1.5;
+                return size * 1.5;
             }
             NSAssert(NO, @"not support iPhone size");
             return 0.0;
         } else if (adaptive.designTemplate == DesignTemplateInch58) {
             if ((deviceSize.width == 320 && deviceSize.height == 480) || (deviceSize.width == 320 && deviceSize.height == 568) || (deviceSize.width == 375 && deviceSize.height == 667) || (deviceSize.width == 375 && deviceSize.height == 812)) {
-                return designSize / 1.5;
+                return size / 1.5;
             } else if (deviceSize.width == 414 && deviceSize.height == 736) {
-                return designSize;
+                return size;
             }
             NSAssert(NO, @"not support iPhone size");
             return 0.0;
@@ -125,19 +125,19 @@
     return 0.0;
 }
 
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize multiply:(CGFloat)multiply minitrim:(CGFloat)minitrim {
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate trim:(CGFloat)trim {
     CGSize deviceSize = [self deviceSize];
     CGSize templateSize = [self designTemplateSize];
     NSAssert([self isSupportDeviceSize] != NO, @"unsupport iPhone device size");
     if (type == AdaptiveReferFixation) {
-        return designSize;
+        return size;
     } else if (type == AdaptiveReferRatioX) {
-        CGFloat w = (designSize.width * deviceSize.width / (1.0 * templateSize.width)) * multiply + minitrim;
-        CGFloat h = (designSize.height * deviceSize.width / (1.0 * templateSize.width)) * multiply + minitrim;
+        CGFloat w = (size.width * deviceSize.width / (1.0 * templateSize.width)) * rate + trim;
+        CGFloat h = (size.height * deviceSize.width / (1.0 * templateSize.width)) * rate + trim;
         return CGSizeMake(w, h);
     } else if (type == AdaptiveReferRatioY) {
-        CGFloat w = (designSize.width * deviceSize.height / (1.0 * templateSize.height)) * multiply + minitrim;
-        CGFloat h = (designSize.height * deviceSize.height / (1.0 * templateSize.height)) * multiply + minitrim;
+        CGFloat w = (size.width * deviceSize.height / (1.0 * templateSize.height)) * rate + trim;
+        CGFloat h = (size.height * deviceSize.height / (1.0 * templateSize.height)) * rate + trim;
         return CGSizeMake(w, h);
     } else {
         NSAssert(NO, @"not support image adaptive type");
@@ -145,48 +145,48 @@
     }
 }
 
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize multiply:(CGFloat)multiply {
-    return [self widge2DimensionAdaptive:type designSize:designSize multiply:multiply minitrim:0.0];
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate {
+    return [self widgetAdaptive:type size:size rate:rate trim:0.0];
 }
 
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize minitrim:(CGFloat)minitrim {
-    return [self widge2DimensionAdaptive:type designSize:designSize multiply:1.0 minitrim:minitrim];
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size trim:(CGFloat)trim {
+    return [self widgetAdaptive:type size:size rate:1.0 trim:trim];
 }
 
-+ (CGSize)widge2DimensionAdaptive:(AdaptiveRefer)type designSize:(CGSize)designSize {
-    return [self widge2DimensionAdaptive:type designSize:designSize multiply:1.0 minitrim:0.0];
++ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size {
+    return [self widgetAdaptive:type size:size rate:1.0 trim:0.0];
 }
 
 + (NSArray<NSValue *> *)iPhonesDeviceSize {
     return @[ @(CGSizeMake(320, 480)), @(CGSizeMake(320, 568)), @(CGSizeMake(375, 667)), @(CGSizeMake(414, 736)), @(CGSizeMake(375, 812)) ];
 }
 
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure multiply:(CGFloat)multiply minitrim:(CGFloat)minitrim {
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate trim:(CGFloat)trim {
     CGSize deviceSize = [self deviceSize];
     CGSize templateSize = [self designTemplateSize];
     NSAssert([self isSupportDeviceSize] != NO, @"unsupport iPhone device size");
     if (type == AdaptiveReferFixation) {
-        return designMeasure * multiply + minitrim;
+        return value * rate + trim;
     } else if (type == AdaptiveReferRatioX) {
-        return (designMeasure * deviceSize.width / templateSize.width) * multiply + minitrim;
+        return (value * deviceSize.width / templateSize.width) * rate + trim;
     } else if (type == AdaptiveReferRatioY) {
-        return (designMeasure * deviceSize.height / templateSize.height) * multiply + minitrim;
+        return (value * deviceSize.height / templateSize.height) * rate + trim;
     } else {
         NSAssert(NO, @"not support image adaptive type");
         return 0.0;
     }
 }
 
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure multiply:(CGFloat)multiply {
-    return [self widget1DimensionAdaptive:type designMeasure:designMeasure multiply:multiply minitrim:0.0];
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate {
+    return [self widgetAdaptive:type value:value rate:rate trim:0.0];
 }
 
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure minitrim:(CGFloat)minitrim {
-    return [self widget1DimensionAdaptive:type designMeasure:designMeasure multiply:1.0 minitrim:minitrim];
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value trim:(CGFloat)trim {
+    return [self widgetAdaptive:type value:value rate:1.0 trim:trim];
 }
 
-+ (CGFloat)widget1DimensionAdaptive:(AdaptiveRefer)type designMeasure:(CGFloat)designMeasure {
-    return [self widget1DimensionAdaptive:type designMeasure:designMeasure multiply:1.0 minitrim:0.0];
++ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value {
+    return [self widgetAdaptive:type value:value rate:1.0 trim:0.0];
 }
 
 /// 设计模版尺寸

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
