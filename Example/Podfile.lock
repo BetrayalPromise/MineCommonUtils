@@ -1,67 +1,69 @@
 PODS:
   - MessageTrash (0.0.1)
-  - MineCommonUtils (1.0.2):
+  - MineCommonUtils (1.0.5):
     - MessageTrash
-    - MineCommonUtils/Chain (= 1.0.2)
-    - MineCommonUtils/ClosureManage (= 1.0.2)
-    - MineCommonUtils/CommonAdaptive (= 1.0.2)
-    - MineCommonUtils/CoverScope (= 1.0.2)
-    - MineCommonUtils/DistributeSelector (= 1.0.2)
-    - MineCommonUtils/DynamicProperty (= 1.0.2)
-    - MineCommonUtils/FileManager (= 1.0.2)
-    - MineCommonUtils/FunctionOperate (= 1.0.2)
-    - MineCommonUtils/Hierarchy (= 1.0.2)
-    - MineCommonUtils/OrientationSize (= 1.0.2)
-    - MineCommonUtils/PerformSelector (= 1.0.2)
-    - MineCommonUtils/Persistent (= 1.0.2)
-    - MineCommonUtils/Reuse (= 1.0.2)
-    - MineCommonUtils/Route (= 1.0.2)
-    - MineCommonUtils/StructureView (= 1.0.2)
-    - MineCommonUtils/Style (= 1.0.2)
-    - MineCommonUtils/SubClasses (= 1.0.2)
-    - MineCommonUtils/SubClasses (= 1.0.2)
-    - MineCommonUtils/TimeConvert (= 1.0.2)
-    - MineCommonUtils/TypeEnsure (= 1.0.2)
-    - MineCommonUtils/WidgetPosition (= 1.0.2)
-  - MineCommonUtils/Chain (1.0.2):
+    - MineCommonUtils/Chain (= 1.0.5)
+    - MineCommonUtils/ClosureManage (= 1.0.5)
+    - MineCommonUtils/ColorValue (= 1.0.5)
+    - MineCommonUtils/CommonAdaptive (= 1.0.5)
+    - MineCommonUtils/CoverScope (= 1.0.5)
+    - MineCommonUtils/DistributeSelector (= 1.0.5)
+    - MineCommonUtils/DynamicProperty (= 1.0.5)
+    - MineCommonUtils/FileManager (= 1.0.5)
+    - MineCommonUtils/FunctionOperate (= 1.0.5)
+    - MineCommonUtils/Hierarchy (= 1.0.5)
+    - MineCommonUtils/OrientationSize (= 1.0.5)
+    - MineCommonUtils/PerformSelector (= 1.0.5)
+    - MineCommonUtils/Persistent (= 1.0.5)
+    - MineCommonUtils/Reuse (= 1.0.5)
+    - MineCommonUtils/Route (= 1.0.5)
+    - MineCommonUtils/StructureView (= 1.0.5)
+    - MineCommonUtils/Style (= 1.0.5)
+    - MineCommonUtils/SubClasses (= 1.0.5)
+    - MineCommonUtils/TimeConvert (= 1.0.5)
+    - MineCommonUtils/TypeEnsure (= 1.0.5)
+    - MineCommonUtils/WidgetPosition (= 1.0.5)
+  - MineCommonUtils/Chain (1.0.5):
     - MessageTrash
-  - MineCommonUtils/ClosureManage (1.0.2):
+  - MineCommonUtils/ClosureManage (1.0.5):
     - MessageTrash
-  - MineCommonUtils/CommonAdaptive (1.0.2):
+  - MineCommonUtils/ColorValue (1.0.5):
     - MessageTrash
-  - MineCommonUtils/CoverScope (1.0.2):
+  - MineCommonUtils/CommonAdaptive (1.0.5):
     - MessageTrash
-  - MineCommonUtils/DistributeSelector (1.0.2):
+  - MineCommonUtils/CoverScope (1.0.5):
     - MessageTrash
-  - MineCommonUtils/DynamicProperty (1.0.2):
+  - MineCommonUtils/DistributeSelector (1.0.5):
     - MessageTrash
-  - MineCommonUtils/FileManager (1.0.2):
+  - MineCommonUtils/DynamicProperty (1.0.5):
     - MessageTrash
-  - MineCommonUtils/FunctionOperate (1.0.2):
+  - MineCommonUtils/FileManager (1.0.5):
     - MessageTrash
-  - MineCommonUtils/Hierarchy (1.0.2):
+  - MineCommonUtils/FunctionOperate (1.0.5):
     - MessageTrash
-  - MineCommonUtils/OrientationSize (1.0.2):
+  - MineCommonUtils/Hierarchy (1.0.5):
     - MessageTrash
-  - MineCommonUtils/PerformSelector (1.0.2):
+  - MineCommonUtils/OrientationSize (1.0.5):
     - MessageTrash
-  - MineCommonUtils/Persistent (1.0.2):
+  - MineCommonUtils/PerformSelector (1.0.5):
     - MessageTrash
-  - MineCommonUtils/Reuse (1.0.2):
+  - MineCommonUtils/Persistent (1.0.5):
     - MessageTrash
-  - MineCommonUtils/Route (1.0.2):
+  - MineCommonUtils/Reuse (1.0.5):
     - MessageTrash
-  - MineCommonUtils/StructureView (1.0.2):
+  - MineCommonUtils/Route (1.0.5):
     - MessageTrash
-  - MineCommonUtils/Style (1.0.2):
+  - MineCommonUtils/StructureView (1.0.5):
     - MessageTrash
-  - MineCommonUtils/SubClasses (1.0.2):
+  - MineCommonUtils/Style (1.0.5):
     - MessageTrash
-  - MineCommonUtils/TimeConvert (1.0.2):
+  - MineCommonUtils/SubClasses (1.0.5):
     - MessageTrash
-  - MineCommonUtils/TypeEnsure (1.0.2):
+  - MineCommonUtils/TimeConvert (1.0.5):
     - MessageTrash
-  - MineCommonUtils/WidgetPosition (1.0.2):
+  - MineCommonUtils/TypeEnsure (1.0.5):
+    - MessageTrash
+  - MineCommonUtils/WidgetPosition (1.0.5):
     - MessageTrash
 
 DEPENDENCIES:
@@ -77,7 +79,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MessageTrash: 7925feafd22318f4049253b8ed4a457517af1875
-  MineCommonUtils: 756b72cb381e3d38280880eab62d2f38525b2b5c
+  MineCommonUtils: 78b0d6b1aaeb94bbeb6da2380f355bb2c26c0f03
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 

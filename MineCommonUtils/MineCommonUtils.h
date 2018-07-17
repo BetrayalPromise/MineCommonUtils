@@ -67,3 +67,6 @@
 
 /// 传递多参数
 #import "NSObject+PerformSelector.h"
+
+/// 字符串转色值
+#import "NSString+ColorValue.h"

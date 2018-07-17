@@ -15,22 +15,35 @@
 
 @implementation QMTVViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
     
     NSArray * a =  [NSArray findSubClass];
     NSLog(@"%@", a);
     
     NSArray * b =  [NSMutableArray findSubClass];
     NSLog(@"%@", b);
+    
+    UIView * v = [[[UIView structureView] objectThen:^(UIView *_Nonnull source) {
+        source.backgroundColor = [UIColor redColor];
+        source.frame = CGRectMake(100, 100, 100, 100);
+    }] attachTo:self.view];
+    
+    UIButton * button = [[[UIButton structureView] objectThen:^(UIButton *_Nonnull source) {
+        source.backgroundColor = [UIColor redColor];
+        source.frame = CGRectMake(-50,-50, 50, 50);
+        [source addTarget:self action:@selector(aaa) forControlEvents:(UIControlEventTouchUpInside)];
+        source.ableRespose = YES;
+    }] attachTo:v];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (void)aaa {
+    NSLog(@"AAAA");
 }
 
 @end

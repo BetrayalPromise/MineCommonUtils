@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
@@ -90,11 +90,6 @@ MineCommonUtils for me
     ss.public_header_files = 'MineCommonUtils/NSObject+SubClasses.h'
   end
 
-  s.subspec 'SubClasses' do |ss|
-    ss.source_files = 'MineCommonUtils/NSObject+SubClasses.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/NSObject+SubClasses.h'
-  end
-
   s.subspec 'TypeEnsure' do |ss|
     ss.source_files = 'MineCommonUtils/NSObject+TypeEnsure.{h,m}'
     ss.public_header_files = 'MineCommonUtils/NSObject+TypeEnsure.h'
@@ -128,6 +123,11 @@ MineCommonUtils for me
   s.subspec 'PerformSelector' do |ss|
     ss.source_files = 'MineCommonUtils/NSObject+PerformSelector.{h,m}'
     ss.public_header_files = 'MineCommonUtils/NSObject+PerformSelector.h'
+  end
+  
+  s.subspec 'ColorValue' do |ss|
+      ss.source_files = 'MineCommonUtils/NSString+ColorValue.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/NSString+ColorValue.h'
   end
 
   s.dependency 'MessageTrash'

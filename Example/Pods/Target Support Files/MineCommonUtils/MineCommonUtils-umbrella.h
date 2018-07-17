@@ -13,6 +13,7 @@
 #import "MineCommonUtils.h"
 #import "UIView+Chain.h"
 #import "NSObject+ClosureManage.h"
+#import "NSString+ColorValue.h"
 #import "CommonAdaptive.h"
 #import "UIView+CoverScope.h"
 #import "NSObject+DistributeSelector.h"

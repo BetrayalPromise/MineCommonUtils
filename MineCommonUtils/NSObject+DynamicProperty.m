@@ -58,18 +58,18 @@ static inline NSString *__setter_selector_name_of_property(NSString *property) {
     id setblock;
     id getBlock;
 
-#define blockWithCaseType(C_TYPE)                                                                                                                                                                                                                        \
-    if (strcmp(type, @encode(C_TYPE)) == 0) {                                                                                                                                                                                                            \
-        setblock = ^(id self, C_TYPE var) {                                                                                                                                                                                                              \
-            NSValue *value = [NSValue value:&var withObjCType:type];                                                                                                                                                                                     \
-            objc_setAssociatedObject(self, (__bridge void *) key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);                                                                                                                                             \
-        };                                                                                                                                                                                                                                               \
-        getBlock = ^C_TYPE(id self) {                                                                                                                                                                                                                    \
-            NSValue *value = objc_getAssociatedObject(self, (__bridge void *) key);                                                                                                                                                                      \
-            C_TYPE var;                                                                                                                                                                                                                                  \
-            [value getValue:&var];                                                                                                                                                                                                                       \
-            return var;                                                                                                                                                                                                                                  \
-        };                                                                                                                                                                                                                                               \
+#define blockWithCaseType(C_TYPE) \
+    if (strcmp(type, @encode(C_TYPE)) == 0) { \
+        setblock = ^(id self, C_TYPE var) { \
+            NSValue *value = [NSValue value:&var withObjCType:type]; \
+            objc_setAssociatedObject(self, (__bridge void *) key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC); \
+        }; \
+        getBlock = ^C_TYPE(id self) { \
+            NSValue *value = objc_getAssociatedObject(self, (__bridge void *) key); \
+            C_TYPE var; \
+            [value getValue:&var]; \
+            return var; \
+        }; \
     }
 
     blockWithCaseType(char);
