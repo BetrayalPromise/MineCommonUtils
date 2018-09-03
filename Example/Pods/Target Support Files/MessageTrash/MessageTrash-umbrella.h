@@ -11,6 +11,8 @@
 #endif
 
 #import "MessageTrash.h"
+#import "NSObject+Bundle.h"
+#import "NSObject+UnknowMessage.h"
 
 FOUNDATION_EXPORT double MessageTrashVersionNumber;
 FOUNDATION_EXPORT const unsigned char MessageTrashVersionString[];

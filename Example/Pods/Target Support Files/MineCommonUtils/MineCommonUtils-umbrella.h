@@ -11,6 +11,7 @@
 #endif
 
 #import "MineCommonUtils.h"
+#import "NSString+Attribute.h"
 #import "UIView+Chain.h"
 #import "NSObject+ClosureManage.h"
 #import "NSString+ColorValue.h"

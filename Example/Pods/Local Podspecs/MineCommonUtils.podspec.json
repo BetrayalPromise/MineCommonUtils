@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.0.5"
+    "tag": "1.0.6"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -159,6 +159,11 @@
       "name": "ColorValue",
       "source_files": "MineCommonUtils/NSString+ColorValue.{h,m}",
       "public_header_files": "MineCommonUtils/NSString+ColorValue.h"
+    },
+    {
+      "name": "Attribute",
+      "source_files": "MineCommonUtils/NSString+Attribute.{h,m}",
+      "public_header_files": "MineCommonUtils/NSString+Attribute.h"
     }
   ]
 }

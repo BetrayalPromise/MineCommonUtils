@@ -13,4 +13,8 @@
 
 @interface MessageTrash : NSObject
 
++ (instancetype)instanceSource:(Class)source selector:(SEL)selector;
+
++ (instancetype)classSource:(Class)source selector:(SEL)selector;
+
 @end

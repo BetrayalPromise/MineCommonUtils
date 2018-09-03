@@ -11,13 +11,30 @@
 
 @implementation MessageTrash
 
-+ (BOOL)resolveInstanceMethod:(SEL)sel {
-    class_addMethod([self class], sel, (IMP) realizationFunction, "v@:");
-    return YES;
+static void instanceRealizationFunction(id obj, SEL _cmd) {
+    
 }
 
-void realizationFunction(id obj, SEL _cmd) {
-    NSLog(@"%@:%@", obj, NSStringFromSelector(_cmd));
+static void classRealizationFunction(id obj, SEL _cmd) {
+    
+}
+
++ (instancetype)instanceSource:(Class)source selector:(SEL)selector {
+    MessageTrash * mt = [MessageTrash new];
+    class_addMethod(self, selector, (IMP)instanceRealizationFunction, "v@:");
+#ifdef DEBUG
+    NSLog(@"unrecognized instance selector: -[%@ %@]", source, NSStringFromSelector(selector));
+#endif
+    return mt;
+}
+
++ (instancetype)classSource:(Class)source selector:(SEL)selector {
+    MessageTrash * mt = [MessageTrash new];
+    class_addMethod(objc_getMetaClass(NSStringFromClass(self).UTF8String), selector, (IMP)classRealizationFunction, "v@:");
+#ifdef DEBUG
+    NSLog(@"unrecognized class selector: -[%@ %@]", source, NSStringFromSelector(selector));
+#endif
+    return mt;
 }
 
 @end
