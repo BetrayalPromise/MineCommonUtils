@@ -164,6 +164,11 @@
       "name": "Attribute",
       "source_files": "MineCommonUtils/NSString+Attribute.{h,m}",
       "public_header_files": "MineCommonUtils/NSString+Attribute.h"
+    },
+    {
+      "name": "IndexPath",
+      "source_files": "MineCommonUtils/*+IndexPath.{h,m}",
+      "public_header_files": "MineCommonUtils/*+IndexPath.h"
     }
   ]
 }

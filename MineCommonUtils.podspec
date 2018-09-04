@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
@@ -133,6 +133,11 @@ MineCommonUtils for me
   s.subspec 'Attribute' do |ss|
       ss.source_files = 'MineCommonUtils/NSString+Attribute.{h,m}'
       ss.public_header_files = 'MineCommonUtils/NSString+Attribute.h'
+  end
+  
+  s.subspec 'IndexPath' do |ss|
+      ss.source_files = 'MineCommonUtils/*+IndexPath.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/*+IndexPath.h'
   end
 
   s.dependency 'MessageTrash'

@@ -13,6 +13,7 @@ PODS:
     - MineCommonUtils/FileManager (= 1.0.6)
     - MineCommonUtils/FunctionOperate (= 1.0.6)
     - MineCommonUtils/Hierarchy (= 1.0.6)
+    - MineCommonUtils/IndexPath (= 1.0.6)
     - MineCommonUtils/OrientationSize (= 1.0.6)
     - MineCommonUtils/PerformSelector (= 1.0.6)
     - MineCommonUtils/Persistent (= 1.0.6)
@@ -45,6 +46,8 @@ PODS:
   - MineCommonUtils/FunctionOperate (1.0.6):
     - MessageTrash
   - MineCommonUtils/Hierarchy (1.0.6):
+    - MessageTrash
+  - MineCommonUtils/IndexPath (1.0.6):
     - MessageTrash
   - MineCommonUtils/OrientationSize (1.0.6):
     - MessageTrash
@@ -82,7 +85,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MessageTrash: 558edf5c94a26d15bc1dca43f6cca9ebbb836f0f
-  MineCommonUtils: 327b64145a154696c322039c8476814b057f7a13
+  MineCommonUtils: 6414f45eb39f7da7a4bc1d7b23768e0352e4b450
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 
