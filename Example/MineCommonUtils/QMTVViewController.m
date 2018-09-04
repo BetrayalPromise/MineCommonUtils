@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
     NSArray * a =  [NSArray findSubClass];
     NSLog(@"%@", a);
     
