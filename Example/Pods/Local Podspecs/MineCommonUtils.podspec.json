@@ -161,6 +161,11 @@
       "name": "IndexPath",
       "source_files": "MineCommonUtils/*+IndexPath.{h,m}",
       "public_header_files": "MineCommonUtils/*+IndexPath.h"
+    },
+    {
+      "name": "HandleEventBlock",
+      "source_files": "MineCommonUtils/UIButton+HandleEventBlock.{h,m}",
+      "public_header_files": "MineCommonUtils/UIButton+HandleEventBlock.h"
     }
   ]
 }

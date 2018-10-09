@@ -10,6 +10,7 @@ PODS:
     - MineCommonUtils/DynamicProperty (= 1.0.7)
     - MineCommonUtils/FileManager (= 1.0.7)
     - MineCommonUtils/FunctionOperate (= 1.0.7)
+    - MineCommonUtils/HandleEventBlock (= 1.0.7)
     - MineCommonUtils/Hierarchy (= 1.0.7)
     - MineCommonUtils/IndexPath (= 1.0.7)
     - MineCommonUtils/OrientationSize (= 1.0.7)
@@ -33,6 +34,7 @@ PODS:
   - MineCommonUtils/DynamicProperty (1.0.7)
   - MineCommonUtils/FileManager (1.0.7)
   - MineCommonUtils/FunctionOperate (1.0.7)
+  - MineCommonUtils/HandleEventBlock (1.0.7)
   - MineCommonUtils/Hierarchy (1.0.7)
   - MineCommonUtils/IndexPath (1.0.7)
   - MineCommonUtils/OrientationSize (1.0.7)
@@ -55,7 +57,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MineCommonUtils: 31a1c48c2ed2c7b22288d987d53424828d32ec33
+  MineCommonUtils: 45eae61f81cfecbf3df3e385b3425d8404201a47
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 

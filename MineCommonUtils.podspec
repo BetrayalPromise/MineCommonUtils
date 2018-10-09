@@ -140,6 +140,10 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/*+IndexPath.h'
   end
 
-  #s.dependency 'MessageTrash'
+  s.subspec 'HandleEventBlock' do |ss|
+      ss.source_files = 'MineCommonUtils/UIButton+HandleEventBlock.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/UIButton+HandleEventBlock.h'
+  end
+
 
 end
