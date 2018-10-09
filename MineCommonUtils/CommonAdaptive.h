@@ -8,17 +8,13 @@
 
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
-@class DeviceSize;
 
-typedef NS_ENUM(NSUInteger, DesignTemplate) { DesignTemplateInch35 = 0, DesignTemplateInch40 = 1, DesignTemplateInch47 = 2, DesignTemplateInch55 = 3, DesignTemplateInch58 = 4 };
-
-typedef NS_ENUM(NSUInteger, AdaptiveFont) {
-    ///  自适应调整 字体依次增加2.5
-    AdaptiveFontSelfAdaption,
-    ///  固定
-    AdaptiveFontFixation,
-    ///  常规
-    AdaptiveFontCommon,
+typedef NS_ENUM(NSUInteger, DesignTemplate) {
+    DesignTemplate_320_568 = 1,
+    DesignTemplate_375_667 = 2,
+    DesignTemplate_375_812 = 3,
+    DesignTemplate_414_736 = 4,
+    DesignTemplate_414_896 = 5
 };
 
 typedef NS_ENUM(NSUInteger, AdaptiveRefer) {
@@ -30,41 +26,22 @@ typedef NS_ENUM(NSUInteger, AdaptiveRefer) {
     AdaptiveReferRatioY,
 };
 
-@interface CommonAdaptive : NSObject
+/// 逻辑屏幕分辨率
+typedef struct LogicSize {
+    CGFloat dpi_320_568;
+    CGFloat dpi_375_667;
+    CGFloat dpi_375_812;
+    CGFloat dpi_414_736;
+    CGFloat dpi_414_896;
+} LogicSize;
 
-@property (nonatomic, assign) DesignTemplate designTemplate;
-
-+ (instancetype _Nonnull)sharedInstance;
-+ (CGFloat)widgetCustomAdaptive:(void (^_Nonnull)(DeviceSize *_Nonnull size))closure;
-
-+ (CGFloat)widgetFontAdaptive:(AdaptiveFont)type size:(CGFloat)size;
-/*
-    参照X轴或者Y轴的标准
- */
-+ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate trim:(CGFloat)trim;
-+ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size rate:(CGFloat)rate;
-+ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size trim:(CGFloat)trim;
-+ (CGSize)widgetAdaptive:(AdaptiveRefer)type size:(CGSize)size;
-
-+ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate trim:(CGFloat)trim;
-+ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value rate:(CGFloat)rate;
-+ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value trim:(CGFloat)trim;
-+ (CGFloat)widgetAdaptive:(AdaptiveRefer)type value:(CGFloat)value;
-
-@end
-
-
-@interface DeviceSize : NSObject
-
-/// 3gs 4 4s
-@property (nonatomic, assign) CGFloat inch35;
-/// 5 5c 5s se
-@property (nonatomic, assign) CGFloat inch40;
-/// 6 6s 7 7s 8
-@property (nonatomic, assign) CGFloat inch47;
-/// 6ps 6sps 7ps 7sps 8ps
-@property (nonatomic, assign) CGFloat inch55;
-/// x
-@property (nonatomic, assign) CGFloat inch58;
-
-@end
+/// 缺省是按照iPhone X标准处理
+extern void setTemplate(DesignTemplate dt);
+/// 针对不同设备类型均不同时特殊处理
+extern CGFloat widgetCustomAdaptive(void(^closure)(LogicSize * s));
+/// 一维线性变化参照X轴或者Y轴的标准
+extern CGFloat widgetValueAdaptive(AdaptiveRefer r, CGFloat value, CGFloat rate, CGFloat trim);
+/// 二维线性变化参照X轴或者Y轴的标准
+extern CGSize widgetSizeAdaptive(AdaptiveRefer r, CGSize size, CGFloat rate, CGFloat trim);
+/// 字体适配
+extern CGFloat widgetFontAdaptive(CGFloat font, CGFloat rate);
