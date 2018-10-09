@@ -1,91 +1,61 @@
 PODS:
-  - MessageTrash (0.0.6)
-  - MineCommonUtils (1.0.6):
-    - MessageTrash
-    - MineCommonUtils/Attribute (= 1.0.6)
-    - MineCommonUtils/Chain (= 1.0.6)
-    - MineCommonUtils/ClosureManage (= 1.0.6)
-    - MineCommonUtils/ColorValue (= 1.0.6)
-    - MineCommonUtils/CommonAdaptive (= 1.0.6)
-    - MineCommonUtils/CoverScope (= 1.0.6)
-    - MineCommonUtils/DistributeSelector (= 1.0.6)
-    - MineCommonUtils/DynamicProperty (= 1.0.6)
-    - MineCommonUtils/FileManager (= 1.0.6)
-    - MineCommonUtils/FunctionOperate (= 1.0.6)
-    - MineCommonUtils/Hierarchy (= 1.0.6)
-    - MineCommonUtils/IndexPath (= 1.0.6)
-    - MineCommonUtils/OrientationSize (= 1.0.6)
-    - MineCommonUtils/PerformSelector (= 1.0.6)
-    - MineCommonUtils/Persistent (= 1.0.6)
-    - MineCommonUtils/Reuse (= 1.0.6)
-    - MineCommonUtils/Route (= 1.0.6)
-    - MineCommonUtils/StructureView (= 1.0.6)
-    - MineCommonUtils/Style (= 1.0.6)
-    - MineCommonUtils/SubClasses (= 1.0.6)
-    - MineCommonUtils/TimeConvert (= 1.0.6)
-    - MineCommonUtils/TypeEnsure (= 1.0.6)
-    - MineCommonUtils/WidgetPosition (= 1.0.6)
-  - MineCommonUtils/Attribute (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Chain (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/ClosureManage (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/ColorValue (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/CommonAdaptive (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/CoverScope (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/DistributeSelector (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/DynamicProperty (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/FileManager (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/FunctionOperate (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Hierarchy (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/IndexPath (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/OrientationSize (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/PerformSelector (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Persistent (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Reuse (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Route (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/StructureView (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/Style (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/SubClasses (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/TimeConvert (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/TypeEnsure (1.0.6):
-    - MessageTrash
-  - MineCommonUtils/WidgetPosition (1.0.6):
-    - MessageTrash
+  - MineCommonUtils (1.0.7):
+    - MineCommonUtils/Attribute (= 1.0.7)
+    - MineCommonUtils/Chain (= 1.0.7)
+    - MineCommonUtils/ClosureManage (= 1.0.7)
+    - MineCommonUtils/ColorValue (= 1.0.7)
+    - MineCommonUtils/CommonAdaptive (= 1.0.7)
+    - MineCommonUtils/CoverScope (= 1.0.7)
+    - MineCommonUtils/DistributeSelector (= 1.0.7)
+    - MineCommonUtils/DynamicProperty (= 1.0.7)
+    - MineCommonUtils/FileManager (= 1.0.7)
+    - MineCommonUtils/FunctionOperate (= 1.0.7)
+    - MineCommonUtils/Hierarchy (= 1.0.7)
+    - MineCommonUtils/IndexPath (= 1.0.7)
+    - MineCommonUtils/OrientationSize (= 1.0.7)
+    - MineCommonUtils/PerformSelector (= 1.0.7)
+    - MineCommonUtils/Persistent (= 1.0.7)
+    - MineCommonUtils/Reuse (= 1.0.7)
+    - MineCommonUtils/Route (= 1.0.7)
+    - MineCommonUtils/StructureView (= 1.0.7)
+    - MineCommonUtils/Style (= 1.0.7)
+    - MineCommonUtils/SubClasses (= 1.0.7)
+    - MineCommonUtils/TimeConvert (= 1.0.7)
+    - MineCommonUtils/TypeEnsure (= 1.0.7)
+    - MineCommonUtils/WidgetPosition (= 1.0.7)
+  - MineCommonUtils/Attribute (1.0.7)
+  - MineCommonUtils/Chain (1.0.7)
+  - MineCommonUtils/ClosureManage (1.0.7)
+  - MineCommonUtils/ColorValue (1.0.7)
+  - MineCommonUtils/CommonAdaptive (1.0.7)
+  - MineCommonUtils/CoverScope (1.0.7)
+  - MineCommonUtils/DistributeSelector (1.0.7)
+  - MineCommonUtils/DynamicProperty (1.0.7)
+  - MineCommonUtils/FileManager (1.0.7)
+  - MineCommonUtils/FunctionOperate (1.0.7)
+  - MineCommonUtils/Hierarchy (1.0.7)
+  - MineCommonUtils/IndexPath (1.0.7)
+  - MineCommonUtils/OrientationSize (1.0.7)
+  - MineCommonUtils/PerformSelector (1.0.7)
+  - MineCommonUtils/Persistent (1.0.7)
+  - MineCommonUtils/Reuse (1.0.7)
+  - MineCommonUtils/Route (1.0.7)
+  - MineCommonUtils/StructureView (1.0.7)
+  - MineCommonUtils/Style (1.0.7)
+  - MineCommonUtils/SubClasses (1.0.7)
+  - MineCommonUtils/TimeConvert (1.0.7)
+  - MineCommonUtils/TypeEnsure (1.0.7)
+  - MineCommonUtils/WidgetPosition (1.0.7)
 
 DEPENDENCIES:
   - MineCommonUtils (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MessageTrash
 
 EXTERNAL SOURCES:
   MineCommonUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MessageTrash: 558edf5c94a26d15bc1dca43f6cca9ebbb836f0f
-  MineCommonUtils: 6414f45eb39f7da7a4bc1d7b23768e0352e4b450
+  MineCommonUtils: 31a1c48c2ed2c7b22288d987d53424828d32ec33
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 
