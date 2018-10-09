@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.0.6"
+    "tag": "1.0.7"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -22,11 +22,6 @@
   },
   "platforms": {
     "ios": "8.0"
-  },
-  "dependencies": {
-    "MessageTrash": [
-
-    ]
   },
   "subspecs": [
     {
@@ -62,10 +57,7 @@
     },
     {
       "name": "Style",
-      "source_files": [
-        "MineCommonUtils/UIView+Style.{h,m}",
-        "MineCommonUtils/MessageTrash.{h,m}"
-      ],
+      "source_files": "MineCommonUtils/UIView+Style.{h,m}",
       "public_header_files": "MineCommonUtils/UIView+Style.h"
     },
     {
@@ -169,6 +161,11 @@
       "name": "IndexPath",
       "source_files": "MineCommonUtils/*+IndexPath.{h,m}",
       "public_header_files": "MineCommonUtils/*+IndexPath.h"
+    },
+    {
+      "name": "HandleEventBlock",
+      "source_files": "MineCommonUtils/UIButton+HandleEventBlock.{h,m}",
+      "public_header_files": "MineCommonUtils/UIButton+HandleEventBlock.h"
     }
   ]
 }

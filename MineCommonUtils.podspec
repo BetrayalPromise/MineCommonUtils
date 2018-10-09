@@ -49,7 +49,7 @@ MineCommonUtils for me
   end
 
   s.subspec 'Style' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+Style.{h,m}', 'MineCommonUtils/MessageTrash.{h,m}'
+    ss.source_files = 'MineCommonUtils/UIView+Style.{h,m}'
     ss.public_header_files = 'MineCommonUtils/UIView+Style.h'
   end
 
@@ -140,6 +140,10 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/*+IndexPath.h'
   end
 
-  s.dependency 'MessageTrash'
+  s.subspec 'HandleEventBlock' do |ss|
+      ss.source_files = 'MineCommonUtils/UIButton+HandleEventBlock.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/UIButton+HandleEventBlock.h'
+  end
+
 
 end

@@ -337,12 +337,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MineCommonUtils_Example/Pods-MineCommonUtils_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MessageTrash/MessageTrash.framework",
 				"${BUILT_PRODUCTS_DIR}/MineCommonUtils/MineCommonUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageTrash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MineCommonUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
