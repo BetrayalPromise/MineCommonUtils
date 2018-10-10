@@ -47,5 +47,5 @@ extern CGFloat widgetCustomAdaptive(void(^closure)(LogicSize * s));
  */
 extern CGFloat widgetFontAdaptive(CGFloat value, NSString * s);
 
-extern CGFloat widgetXValueAdaptive(CGFloat value, NSString * s);
-extern CGFloat widgetYValueAdaptive(CGFloat value, NSString * s);
+extern CGFloat widgetXAdaptive(CGFloat value, NSString * s);
+extern CGFloat widgetYAdaptive(CGFloat value, NSString * s);

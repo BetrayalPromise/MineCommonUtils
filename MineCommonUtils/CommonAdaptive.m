@@ -115,7 +115,7 @@ extern CGFloat widgetFontAdaptive(CGFloat value, NSString * s) {
     return widgetXValueAdaptive(value, s);
 }
 
-extern CGFloat widgetXValueAdaptive(CGFloat value, NSString * s) {
+extern CGFloat widgetXAdaptive(CGFloat value, NSString * s) {
     CGSize size = deviceSize();
     NSArray * sArray = [s componentsSeparatedByString:@":"];
     if (sArray.count != 3) {
@@ -163,7 +163,7 @@ extern CGFloat widgetXValueAdaptive(CGFloat value, NSString * s) {
     }
 }
 
-extern CGFloat widgetYValueAdaptive(CGFloat value, NSString * s) {
+extern CGFloat widgetYAdaptive(CGFloat value, NSString * s) {
     CGSize size = deviceSize();
     NSArray * sArray = [s componentsSeparatedByString:@":"];
     if (sArray.count != 5) {
