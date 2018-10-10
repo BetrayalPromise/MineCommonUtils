@@ -18,8 +18,6 @@ typedef NS_ENUM(NSUInteger, DesignTemplate) {
 };
 
 typedef NS_ENUM(NSUInteger, AdaptiveRefer) {
-    ///  固定
-    AdaptiveReferFixation,
     /// 按X轴
     AdaptiveReferRatioX,
     /// 按Y轴
@@ -39,9 +37,15 @@ typedef struct LogicSize {
 extern void setTemplate(DesignTemplate dt);
 /// 针对不同设备类型均不同时特殊处理
 extern CGFloat widgetCustomAdaptive(void(^closure)(LogicSize * s));
-/// 一维线性变化参照X轴或者Y轴的标准
-extern CGFloat widgetValueAdaptive(AdaptiveRefer r, CGFloat value, CGFloat rate, CGFloat trim);
-/// 二维线性变化参照X轴或者Y轴的标准
-extern CGSize widgetSizeAdaptive(AdaptiveRefer r, CGSize size, CGFloat rate, CGFloat trim);
-/// 字体适配
-extern CGFloat widgetFontAdaptive(CGFloat font, CGFloat rate);
+
+/**
+ 字体大小适配针对3种屏幕宽度的处理
+
+ @param value 设计字体大小
+ @param s 比例
+ @return 根据比例适配大小
+ */
+extern CGFloat widgetFontAdaptive(CGFloat value, NSString * s);
+
+extern CGFloat widgetXValueAdaptive(CGFloat value, NSString * s);
+extern CGFloat widgetYValueAdaptive(CGFloat value, NSString * s);

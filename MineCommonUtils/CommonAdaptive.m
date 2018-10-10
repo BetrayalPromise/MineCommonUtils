@@ -55,13 +55,10 @@ extern CGFloat widgetCustomAdaptive(void(^closure)(LogicSize * s)) {
     }
 }
 
-
 extern CGFloat widgetValueAdaptive(AdaptiveRefer r, CGFloat value, CGFloat rate, CGFloat trim) {
     CGSize ds = deviceSize();
     CGSize templateSize = designTemplateSize();
-    if (r == AdaptiveReferFixation) {
-        return value * rate + trim;
-    } else if (r == AdaptiveReferRatioX) {
+    if (r == AdaptiveReferRatioX) {
         return (value * ds.width / templateSize.width) * rate + trim;
     } else if (r == AdaptiveReferRatioY) {
         return (value * ds.height / templateSize.height) * rate + trim;
@@ -75,9 +72,7 @@ extern CGFloat widgetValueAdaptive(AdaptiveRefer r, CGFloat value, CGFloat rate,
 extern CGSize widgetSizeAdaptive(AdaptiveRefer r, CGSize size, CGFloat rate, CGFloat trim) {
     CGSize ds = deviceSize();
     CGSize templateSize = designTemplateSize();
-    if (r == AdaptiveReferFixation) {
-        return size;
-    } else if (r == AdaptiveReferRatioX) {
+    if (r == AdaptiveReferRatioX) {
         CGFloat w = (size.width * ds.width / (1.0 * templateSize.width)) * rate + trim;
         CGFloat h = (size.height * ds.width / (1.0 * templateSize.width)) * rate + trim;
         return CGSizeMake(w, h);
@@ -116,48 +111,147 @@ static CGSize designTemplateSize() {
     return templateSize;
 }
 
+extern CGFloat widgetFontAdaptive(CGFloat value, NSString * s) {
+    return widgetXValueAdaptive(value, s);
+}
 
-extern CGFloat widgetFontAdaptive(CGFloat font, CGFloat rate) {
-    if (rate == 0) {
+extern CGFloat widgetXValueAdaptive(CGFloat value, NSString * s) {
+    CGSize size = deviceSize();
+    NSArray * sArray = [s componentsSeparatedByString:@":"];
+    if (sArray.count != 3) {
         assert(false);
     }
-    CGSize size = deviceSize();
-
+    CGFloat rate0 = [sArray[0] floatValue];
+    CGFloat rate1 = [sArray[1] floatValue];
+    CGFloat rate2 = [sArray[2] floatValue];
     if (standard_design_template == DesignTemplate_320_568) {
         if (size.width == 320) {
-            return font;
+            return value * rate0 * 1.0 / rate0;
         } else if (size.width == 375) {
-            return font * rate;
+            return value * rate1 * 1.0 / rate0;
         } else if (size.width == 414) {
-            return font * rate * rate;
+            return value * rate2 * 1.0 / rate0;
         } else {
             assert(false);
+            return 0.0;
         }
     } else if (standard_design_template == DesignTemplate_375_667 || standard_design_template == DesignTemplate_375_812) {
         if (size.width == 320) {
-            return font * 1.0 / rate;
+            return value * rate0 * 1.0 / rate1;
         } else if (size.width == 375) {
-            return font;
+            return value * rate1 * 1.0 / rate1;
         } else if (size.width == 414) {
-            return font * rate;
+            return value * rate2 * 1.0 / rate1;
         } else {
             assert(false);
+            return 0.0;
         }
     } else if (standard_design_template == DesignTemplate_414_736 || standard_design_template ==DesignTemplate_414_896) {
         if (size.width == 320) {
-            return font * 1.0 / (rate * rate);
+            return value * rate0 * 1.0 / rate2;
         } else if (size.width == 375) {
-            return font * 1.0 / rate;
+            return value * rate1 * 1.0 / rate2;
         } else if (size.width == 414) {
-            return font;
+            return value * rate2 * 1.0 / rate2;
         } else {
             assert(false);
+            return 0.0;
         }
     } else {
         assert(false);
+        return 0.0;
     }
-
-    return 0.0;
 }
 
-
+extern CGFloat widgetYValueAdaptive(CGFloat value, NSString * s) {
+    CGSize size = deviceSize();
+    NSArray * sArray = [s componentsSeparatedByString:@":"];
+    if (sArray.count != 5) {
+        assert(false);
+    }
+    CGFloat rate0 = [sArray[0] floatValue];
+    CGFloat rate1 = [sArray[1] floatValue];
+    CGFloat rate2 = [sArray[2] floatValue];
+    CGFloat rate3 = [sArray[2] floatValue];
+    CGFloat rate4 = [sArray[2] floatValue];
+    
+    if (standard_design_template == DesignTemplate_320_568) {
+        if (size.height == 568) {
+            return value * rate0 * 1.0 / rate0;
+        } else if (size.height == 667) {
+            return value * rate1 * 1.0 / rate0;
+        } else if (size.height == 812) {
+            return value * rate2 * 1.0 / rate0;
+        } else if (size.height == 736) {
+            return value * rate3 * 1.0 / rate0;
+        } else if (size.height == 896) {
+            return value * rate4 * 1.0 / rate0;
+        } else {
+            assert(false);
+            return 0.0;
+        }
+    } else if (standard_design_template == DesignTemplate_375_667) {
+        if (size.height == 568) {
+            return value * rate0 * 1.0 / rate1;
+        } else if (size.height == 667) {
+            return value * rate1 * 1.0 / rate1;
+        } else if (size.height == 812) {
+            return value * rate2 * 1.0 / rate1;
+        } else if (size.height == 736) {
+            return value * rate3 * 1.0 / rate1;
+        } else if (size.height == 896) {
+            return value * rate4 * 1.0 / rate1;
+        } else {
+            assert(false);
+            return 0.0;
+        }
+    } else if (standard_design_template == DesignTemplate_375_812) {
+        if (size.height == 568) {
+            return value * rate0 * 1.0 / rate2;
+        } else if (size.height == 667) {
+            return value * rate1 * 1.0 / rate2;
+        } else if (size.height == 812) {
+            return value * rate2 * 1.0 / rate2;
+        } else if (size.height == 736) {
+            return value * rate3 * 1.0 / rate2;
+        } else if (size.height == 896) {
+            return value * rate4 * 1.0 / rate2;
+        } else {
+            assert(false);
+            return 0.0;
+        }
+    } else if (standard_design_template == DesignTemplate_414_736) {
+        if (size.height == 568) {
+            return value * rate0 * 1.0 / rate3;
+        } else if (size.height == 667) {
+            return value * rate1 * 1.0 / rate3;
+        } else if (size.height == 812) {
+            return value * rate2 * 1.0 / rate3;
+        } else if (size.height == 736) {
+            return value * rate3 * 1.0 / rate3;
+        } else if (size.height == 896) {
+            return value * rate4 * 1.0 / rate3;
+        } else {
+            assert(false);
+            return 0.0;
+        }
+    } else if (standard_design_template == DesignTemplate_414_896) {
+        if (size.height == 568) {
+            return value * rate0 * 1.0 / rate4;
+        } else if (size.height == 667) {
+            return value * rate1 * 1.0 / rate4;
+        } else if (size.height == 812) {
+            return value * rate2 * 1.0 / rate4;
+        } else if (size.height == 736) {
+            return value * rate3 * 1.0 / rate4;
+        } else if (size.height == 896) {
+            return value * rate4 * 1.0 / rate4;
+        } else {
+            assert(false);
+            return 0.0;
+        }
+    } else {
+        assert(false);
+        return 0.0;
+    }
+}
