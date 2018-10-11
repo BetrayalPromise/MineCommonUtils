@@ -35,6 +35,8 @@
         [source addTarget:self action:@selector(aaa) forControlEvents:(UIControlEventTouchUpInside)];
         source.ableRespose = YES;
     }] attachTo:v];
+    NSLog(@"%@", button);
+    GCCString(@"A");
 }
 
 - (void)didReceiveMemoryWarning {

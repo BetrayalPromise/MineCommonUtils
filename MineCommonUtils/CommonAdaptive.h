@@ -9,43 +9,53 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
+
 typedef NS_ENUM(NSUInteger, DesignTemplate) {
     DesignTemplate_320_568 = 1,
     DesignTemplate_375_667 = 2,
     DesignTemplate_375_812 = 3,
     DesignTemplate_414_736 = 4,
-    DesignTemplate_414_896 = 5
+    DesignTemplate_414_896 = 5,
+
+    DesignTemplate_768_1024 = 6,
+    DesignTemplate_834_1112 = 6,
+    DesignTemplate_1024_1366 = 7,
 };
 
 typedef NS_ENUM(NSUInteger, AdaptiveRefer) {
-    /// 按X轴
-    AdaptiveReferRatioX,
-    /// 按Y轴
-    AdaptiveReferRatioY,
+    AdaptiveReferRatioX,    /// 按X轴
+    AdaptiveReferRatioY,    /// 按Y轴
 };
-
-/// 逻辑屏幕分辨率
-typedef struct LogicSize {
-    CGFloat dpi_320_568;
-    CGFloat dpi_375_667;
-    CGFloat dpi_375_812;
-    CGFloat dpi_414_736;
-    CGFloat dpi_414_896;
-} LogicSize;
 
 /// 缺省是按照iPhone X标准处理
 extern void setTemplate(DesignTemplate dt);
-/// 针对不同设备类型均不同时特殊处理
-extern CGFloat widgetCustomAdaptive(void(^closure)(LogicSize * s));
 
 /**
- 字体大小适配针对3种屏幕宽度的处理
 
- @param value 设计字体大小
- @param s 比例
- @return 根据比例适配大小
+ 字体大小适配针对3种屏幕宽度的处理 320 375 414 三种屏幕宽度
+
+ @param value 设计值
+ @param s 比例 @"1.0:1.5:1.5"
+ @return 适配字体
  */
 extern CGFloat widgetFontAdaptive(CGFloat value, NSString * s);
 
+/**
+
+ 控件相对于屏幕X轴的比例 紧凑型设备有 320 375 414 三种屏幕宽度 不对iPad设备进行处理
+
+ @param value 设计值
+ @param s 比例 @"1.0:1.5:1.5"
+ @return 适配字体
+ */
 extern CGFloat widgetXAdaptive(CGFloat value, NSString * s);
+
+/**
+
+ 控件相对于屏幕Y轴的比例 紧凑型设备有 568 667 736 812 896 五种屏幕高度 不对iPad设备进行处理
+
+ @param value 设计值
+ @param s 比例 @"1.0:1.0:1.0:1.0:1.0"
+ @return 适配字体
+ */
 extern CGFloat widgetYAdaptive(CGFloat value, NSString * s);

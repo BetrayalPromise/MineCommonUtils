@@ -10,8 +10,6 @@
 
 /// 创建字符串 GCC支持
 #define GCCString(fmt, arg...) [NSString stringWithFormat:fmt, ##arg]
-/// 创建字符串 C99支持
-#define C99String(fmt, ...) [NSString stringWithFormat:fmt, __VA_ARGS__]
 
 @interface NSString (Attribute)
 
