@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /// 创建字符串 GCC支持
-#define GCCString(fmt, arg...) [NSString stringWithFormat:fmt, ##arg]
+#define GNUString(fmt, arg...) [NSString stringWithFormat:fmt, ##arg]
 
 @interface NSString (Attribute)
 

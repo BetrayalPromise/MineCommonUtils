@@ -36,7 +36,14 @@
         source.ableRespose = YES;
     }] attachTo:v];
     NSLog(@"%@", button);
-    GCCString(@"A");
+    GNUString(@"A");
+    
+    
+    widgetAdaptive(20, ^(LogicSize *s) {
+        s->size_320 = 1.0;
+        s->size_375 = 1.0;
+        s->size_414 = 1.5;
+    });
 }
 
 - (void)didReceiveMemoryWarning {
