@@ -23,6 +23,7 @@
 #import "NSArray+FunctionOperate.h"
 #import "NSDictionary+FunctionOperate.h"
 #import "NSString+FunctionOperate.h"
+#import "GCD.h"
 #import "UIButton+HandleEventBlock.h"
 #import "UIView+Hierarchy.h"
 #import "UIViewController+DisplayController.h"

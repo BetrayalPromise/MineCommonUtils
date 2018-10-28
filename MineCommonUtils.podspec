@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
@@ -145,5 +145,9 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/UIButton+HandleEventBlock.h'
   end
 
+  s.subspec 'GCD' do |ss|
+      ss.source_files = 'MineCommonUtils/GCD.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/GCD.h'
+  end
 
 end

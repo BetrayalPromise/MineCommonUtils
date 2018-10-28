@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.0.7"
+    "tag": "1.1.0"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -166,6 +166,11 @@
       "name": "HandleEventBlock",
       "source_files": "MineCommonUtils/UIButton+HandleEventBlock.{h,m}",
       "public_header_files": "MineCommonUtils/UIButton+HandleEventBlock.h"
+    },
+    {
+      "name": "GCD",
+      "source_files": "MineCommonUtils/GCD.{h,m}",
+      "public_header_files": "MineCommonUtils/GCD.h"
     }
   ]
 }
