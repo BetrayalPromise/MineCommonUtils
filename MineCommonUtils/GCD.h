@@ -66,4 +66,12 @@ DISPATCH_EXPORT void dispatch_interval_sync(dispatch_queue_t queue, dispatch_tim
  */
 DISPATCH_EXPORT void dispatch_group_interval_async(dispatch_group_t group, dispatch_queue_t  queue, dispatch_time_t interval, dispatch_block_t block);
 
+/**
+ 间隔异步
+ 
+ @param when 延迟时间
+ @param interval 间隔时间内不接后新的任务
+ @param queue 队列
+ @param block 需要执行的任务
+ */
 DISPATCH_EXPORT void dispatch_interva_after(dispatch_time_t when, dispatch_time_t interval, dispatch_queue_t queue, dispatch_block_t block);
