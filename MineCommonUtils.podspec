@@ -149,5 +149,11 @@ MineCommonUtils for me
       ss.source_files = 'MineCommonUtils/GCD.{h,m}'
       ss.public_header_files = 'MineCommonUtils/GCD.h'
   end
-
+  
+  s.subspec 'JSONLog' do |ss|
+      ss.source_files = 'MineCommonUtils/JSONLog.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/JSONLog.h'
+  end
+  
+  
 end

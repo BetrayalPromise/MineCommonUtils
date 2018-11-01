@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.1.0",
+  "version": "1.1.3",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.1.0"
+    "tag": "1.1.3"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -171,6 +171,11 @@
       "name": "GCD",
       "source_files": "MineCommonUtils/GCD.{h,m}",
       "public_header_files": "MineCommonUtils/GCD.h"
+    },
+    {
+      "name": "JSONLog",
+      "source_files": "MineCommonUtils/JSONLog.{h,m}",
+      "public_header_files": "MineCommonUtils/JSONLog.h"
     }
   ]
 }
