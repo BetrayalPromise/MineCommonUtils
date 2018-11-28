@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.1.4"
+    "tag": "1.1.5"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -143,9 +143,9 @@
       "public_header_files": "MineCommonUtils/*+IndexPath.h"
     },
     {
-      "name": "GCD",
-      "source_files": "MineCommonUtils/GCD.{h,m}",
-      "public_header_files": "MineCommonUtils/GCD.h"
+      "name": "Scheduler",
+      "source_files": "MineCommonUtils/Scheduler.{h,m}",
+      "public_header_files": "MineCommonUtils/Scheduler"
     },
     {
       "name": "JSONLog",

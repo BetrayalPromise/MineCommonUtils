@@ -7,6 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#include <pthread.h>
+
+#if   __GNUC__
+#define PTHREAD_EXPORT extern __attribute__((visibility("default")))
+#else
+#define PTHREAD_EXPORT extern
+#endif
 
 #define MainQueue() dispatch_get_main_queue()
 #define GlobalQueue(identifier, flags) dispatch_get_global_queue(identifier, flags)
@@ -33,3 +40,10 @@ DISPATCH_EXPORT void dispatch_main_async(dispatch_block_t block);
  @param block 需要执行的任务
  */
 DISPATCH_EXPORT void dispatch_main_execute(dispatch_block_t block);
+
+
+/// PTHREAD_MUTEX_NORMAL 0 常规互斥 PTHREAD_MUTEX_RECURSIVE 1 递归互斥 PTHREAD_MUTEX_ERRORCHECK 2 检错互斥
+PTHREAD_EXPORT pthread_mutex_t mutexAttribute(int attr);
+
+/// 线程安全执行
+PTHREAD_EXPORT void threadSafeExecute(void(^execute)(void));

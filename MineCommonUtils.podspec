@@ -105,9 +105,9 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/*+IndexPath.h'
   end
 
-  s.subspec 'GCD' do |ss|
-      ss.source_files = 'MineCommonUtils/GCD.{h,m}'
-      ss.public_header_files = 'MineCommonUtils/GCD.h'
+  s.subspec 'Scheduler' do |ss|
+      ss.source_files = 'MineCommonUtils/Scheduler.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/Scheduler'
   end
   
   s.subspec 'JSONLog' do |ss|

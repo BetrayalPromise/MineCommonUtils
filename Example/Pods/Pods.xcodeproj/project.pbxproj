@@ -7,85 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		022B9CEFCAC6AB872D83F806FABC9C09 /* NSObject+Persistent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1663FF8D3C39282ED33A72F00AC1A6E4 /* NSObject+Persistent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		090754D87A821BB694F69746292FED4C /* UIResponder+ResponderChainExtraInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FA9F5D0B23369299251303C12A212 /* UIResponder+ResponderChainExtraInformation.m */; };
-		0CD200424F17379C6C5E3FE895264CFC /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0E0E6909D04279F43EE46CDEC0343D /* GCD.m */; };
-		11638765F29DC6F8879F10240636B7DA /* UICollectionReusableView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FB2A282E27F0EF9F792D0110A67C86 /* UICollectionReusableView+IndexPath.m */; };
-		1C49C0139878D82C199689401CC927EB /* UIResponder+ResponderChainExtraInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = E59B67A7BE15EDE5131F660A8AA9B1E4 /* UIResponder+ResponderChainExtraInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E78413B12E8AE537A6D4611E4B6E9F /* UITableViewHeaderFooterView+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF909DB436F97D9C661564D2C7D0300 /* UITableViewHeaderFooterView+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04161DFD9E2D00DBD0004D6F58B2CAEF /* NSString+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BBB85372586590E316AF97F1868C86 /* NSString+FunctionOperate.m */; };
+		0A153FEEA432943968C2DBAA901060FB /* JSONLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1B146DCC54C1CDE4DEBB1F0F55F3BE /* JSONLog.m */; };
+		0C17DEF2B0F65EBC81DBE0754B431556 /* UIScreen+OrientationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB520176CF831688634F09570A31F55 /* UIScreen+OrientationSize.m */; };
+		0C68254B8E5CAE67CB2E5B21AEC7FCCD /* MineCommonUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC43B03EFBC707E1FCDB9374D0924F11 /* MineCommonUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		110E568FF12592193CCF7FA2E4117861 /* UIView+Style.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9CC266F709F1EE5A79DFBB944435C0 /* UIView+Style.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E64F52AF9C210EF2D493F5F7DD3E72 /* UIView+CoverScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A5DD1DF744DA6828608E36FF8FADA5 /* UIView+CoverScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FCB93A5732CF76F825E5B86FD8FB7E /* UICollectionReusableView+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 96437D68602A2CDECE64180C66ABEB98 /* UICollectionReusableView+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1995767BE52F6BB77C733CDEEF5F94B4 /* UIScreen+OrientationSize.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0A7810C66AB7735EE758EB91DE1ECD /* UIScreen+OrientationSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20917E0FF6411E3F3789637B8A766BE3 /* NSObject+DistributeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A48D8DA681A50E6B2E15CA2100474B /* NSObject+DistributeSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AE5EEF8A819A2C181616FD8A7C4F73 /* NSObject+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40534427962179EF99F3C44473506A /* NSObject+PerformSelector.m */; };
+		2394E2B0FB159D82F7B80EEE3D273F74 /* UICollectionView+Reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6461D1D7022807E28F56E4D58FF67A /* UICollectionView+Reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2554E152D4851298A7E27848952CD086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870E6C6082D5FC52817590B4801E86 /* Foundation.framework */; };
-		34B2AEE7ED0E9CD211291F4A6FC1D6BC /* NSString+ColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA71522BD5DF4C019ADA6D11AFDC5D1 /* NSString+ColorValue.m */; };
-		35423ABCF0C6EB4DF2160F46046334E3 /* NSDictionary+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AEA520682A5E6FA24180E755F1B63D /* NSDictionary+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A5B8AEF5689F9506E1E9792788AFBE9 /* UITableViewHeaderFooterView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B25567FCBFC50A02C875F3A03E2BFB3 /* UITableViewHeaderFooterView+IndexPath.m */; };
-		3EF024D93A9AF61C59447A1845A3EB5D /* NSObject+SubClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFF368C2323A84FB03D851BF9983A84 /* NSObject+SubClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40970DFFB263999047FD365BDD68A4E8 /* NSArray+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAD3A4EFFD9DE7278D81AD8DAEFC235 /* NSArray+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		478B603CAD54D395C4553DB23B9A4F3E /* TimeConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = E07EBE52556AA78B4E750A444A23B0D9 /* TimeConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B1077ADB2CEB2C43718EF7C89E34CD6 /* UIView+CoverScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AE526C16CC44E2F14EDD9E54FCE203 /* UIView+CoverScope.m */; };
-		4DDD066F8D12524ACCA4DE9832506EFC /* NSObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5568F4854FEDA7870B91B5E7AD3ACE2 /* NSObject+Persistent.m */; };
-		4F2136D07326959EC2E68EDD816CC32A /* JSONLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB10101DB789F807FEB53134CEB8900 /* JSONLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		532EF42C884CD033FF8DFEEB170FCE7E /* UIView+WidgetPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B7534E1D102B053199739AA110FA3110 /* UIView+WidgetPosition.m */; };
-		571020BC3CD140A1CDFB22B46013F4C3 /* UITableView+Reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE40D99DAD897BDA4B90A51B3FB5F28 /* UITableView+Reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		332C54335E34C1B897624113B8EAC63B /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6E9E2115017DFA91BF9E9244E6D174 /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		376A35E0923BE10F164E671A507812A1 /* UIView+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B0D85BF55D48D5F1AF73AD7FE71FC6 /* UIView+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AED5814F75AFD75645CAA087909646F /* NSObject+SubClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 2484FCF9A979C744FA26830C9E71FBCD /* NSObject+SubClasses.m */; };
+		3C26357ED492D99212012680F931D507 /* UICollectionViewCell+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10863D0B264ADBB2DFADE3BC64947 /* UICollectionViewCell+IndexPath.m */; };
+		420383AFEAE4D428E7E0344B14068597 /* UIResponder+ResponderChainExtraInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 96517989199FBEB647559E12D21D4E0D /* UIResponder+ResponderChainExtraInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47334BC7C9453CE9F61708F68EE78432 /* UIView+WidgetPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD060EBE3B59FDA6370E5E4EAC7E38A /* UIView+WidgetPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497F1E309A3F936AA1CB1B7227E5B718 /* UIView+WidgetPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A68BD5FE9089DF5CCFF7DB7C1E874F /* UIView+WidgetPosition.m */; };
+		4B6D3AF12574B12EDC7B631A1464BF3A /* TimeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 023F28A87597DA051164714DD14BBEEB /* TimeConvert.m */; };
+		514D699FAC1955250C084B202E243764 /* NSObject+DynamicProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DE781CF6497D37082CF20B811FB003 /* NSObject+DynamicProperty.m */; };
+		537CAF07AA9A6BB6E88AC06069E75AD0 /* UIView+CoverScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 6837E8BD1B69A8B3429B10FF218F25BA /* UIView+CoverScope.m */; };
+		563D9D765380DBB8EB98F4EE282652E8 /* NSDictionary+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B06C2240FAF339F327E67190AEF6657 /* NSDictionary+FunctionOperate.m */; };
+		56BD6C4322EB29C19F7613605BE1E13C /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 108E80C07FEC35E9AB9A758E8C894FBE /* UIView+Chain.m */; };
 		5B75DDBF42CB27435992237B954E8D08 /* Pods-MineCommonUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E15B694AFA5AA4A15F5504E888BF29 /* Pods-MineCommonUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EFB572AF0D3CC3DE0012CD3753A8DBD /* NSObject+FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B879A98B6A80EC4284315A6EAA6160 /* NSObject+FileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B4399172A47BDCC3D547972640681B /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EEF75B3EDAE35A131E48142828DBE /* UIView+Style.m */; };
+		5E3EECEF569423EF6D10B23B1A24F343 /* NSArray+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CF154C91A5808C2BBEDA63C9CC1A0D /* NSArray+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A348AAABE2D4B186B23E6758C1C9C9 /* UITableView+Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EAF89C3DAF7E9F9E8681C67AC18D4A /* UITableView+Reuse.m */; };
 		6755A9B1BBA727704C1DA4D811F50C49 /* Pods-MineCommonUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 385AB4D158F9B74BF142A206744EF169 /* Pods-MineCommonUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A5005D8F7291F78775FB14574AC83A2 /* NSObject+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E869470DC9A8B8BCA9A38576A1F577E /* NSObject+PerformSelector.m */; };
-		707C11D4ED1B97C33754B122C2763751 /* UICollectionViewCell+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DFAAF9985560A28205B18444FA559B /* UICollectionViewCell+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72FA8A8445B6ECA7CCE62D3886E393BE /* NSObject+TypeEnsure.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E174D75D657C91B4788763BF6A64D7 /* NSObject+TypeEnsure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7698DDFED5B42A2DD2DEAD33550CE476 /* UIView+WidgetPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = C6264804FE6F3D6534FEB9EB22935E83 /* UIView+WidgetPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B9746E8CF74786C9C38CEC20EF1FA8 /* NSObject+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46762AE986DCC485C7152C05B40156D3 /* NSObject+FileManager.m */; };
+		6CB8CBA3777558C793E9B9B8699DD890 /* NSObject+TypeEnsure.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CA62A78E63F99D68707E00EC98E295 /* NSObject+TypeEnsure.m */; };
+		6D236EC1A5A17167C3F1DB06CDA147C2 /* MineCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C70D2B66CF734FD592CD955C7C114B2C /* MineCommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		776CDF0F57369B0DDD98E7C1CCDBD480 /* RSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9259E0E2D402DE3D221C907D46BDAAB /* RSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785EF2B552857A131A0FC1F4707FE031 /* TimeConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 733DD68CA7298A424B091770E186A6CC /* TimeConvert.m */; };
-		7F914DDFB1D029F40A79D1D8885C5878 /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C39E8AE4545171C9A181BE0D576CDA9 /* UIView+Chain.m */; };
+		7A99AE48E356F5FFFEDF7E1449EC28EF /* NSDictionary+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B7CAE9C9CB242F92C83B25BE96A66 /* NSDictionary+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDB59B9C0D46293F4E348FAC24A534A /* NSArray+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3739EEA9065DCD37D7AAD665AB883 /* NSArray+FunctionOperate.m */; };
 		7FDA57C18E05750BFF00D91FE37C295B /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1D3B040113183EB41CBE4D60E36EB /* RSSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		814D17E39E83A8D08F8E91A5C146A3D0 /* MineCommonUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55BBA5197869A6D80EEC95219ADE053 /* MineCommonUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83CBB5AE7F527431B6FBCBD9F35F40A0 /* MineCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375EB5102800597B472359F6CFE2CBE /* MineCommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85DF9DB4A735465FAE27F2B058099304 /* NSObject+DistributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF09927151A8D076CE80B82EF9773DF /* NSObject+DistributeSelector.m */; };
-		8912720D07327C64872729D49D9F3D7B /* NSDictionary+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E43F8FA5BA2A5AF93B14522BE2A6E2C /* NSDictionary+FunctionOperate.m */; };
-		8C0597B502CFE1A935EF0DC5EEDF27FC /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 26153A38152B25FB5C96DC9AC425F0F5 /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8E0447586EA7A2D59C0FB8D1EF7095A5 /* UITableView+Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447AFAB06A40C2E1D6633EB609793A9 /* UITableView+Reuse.m */; };
-		91EDD1280EC3F01C60CF5FC9CECC49C1 /* GCD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C54416902D221007BCB76C0F8CA5F19 /* GCD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91FA0EBB9767CA1965A016538DB61AAA /* UICollectionView+Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C61D601C3B35DEBE85F15D7CD65FF /* UICollectionView+Reuse.m */; };
-		927A611F776A4F6A3B5684B79E26B40F /* CommonAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D32D2CDD51A3437759F59C723EFEC /* CommonAdaptive.m */; };
-		958211DE9D6E0D445B5B1B9C258FC4B3 /* NSObject+TypeEnsure.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C5B1469AAD70E17B6D2568D1E1C558 /* NSObject+TypeEnsure.m */; };
-		9B280219769FA1C1184EE42C2EECDDDB /* UIView+CoverScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 32516C1441676A1B3E4092C683D50A5F /* UIView+CoverScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C455AD04F70FEE4D220A2D9596A2B24 /* UITableViewCell+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF41AE747A22F3F5E18B2F5093FD2A7 /* UITableViewCell+IndexPath.m */; };
-		9DA3CD61E42588C8DD04AFCF60630C51 /* UICollectionReusableView+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E417D33AC1A7EB672DF7E9B7FB9B0AA3 /* UICollectionReusableView+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A31B72FA1D274D612B21BEC1BDED9208 /* UICollectionView+Reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = C02474CEAFBB7E093D353C0E1C4CB5D8 /* UICollectionView+Reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A12B2B6DE80BC673DF30EDB6D48A92E /* UIResponder+ResponderChainExtraInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ACEAE4059D73F29D7B429F91DADA3 /* UIResponder+ResponderChainExtraInformation.m */; };
+		8C09B5CBEB63AB9C78EC18822B5390BE /* UITableViewCell+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F50F1D2DEE73BEA87AA0D5189DD61A0D /* UITableViewCell+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA6418551DEAF6AFBC900D04AF66171 /* Scheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0483B26E75E87E2B2E721BA9C8A169F3 /* Scheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9194DA50652CE21CB13DD3DABD4FA4BB /* NSString+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A99FCE1C9025C40EB38B2E064A326B /* NSString+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F08EDA7D26C597CBAA393AE49422409 /* JSONLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8573255BBDB6B730D929115F91B1B691 /* JSONLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A082AA9DA56D42241E7DFD2FB9291C30 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B46A7C8810FAA62DB0007F5BAAEB11 /* UIView+Hierarchy.m */; };
+		A0B6D3DE9A2F0325F05983CF9F024ED5 /* UIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFDDB1433D0268036E0DD788FBEFECF /* UIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A398D70FDEB94162ECA4AEB91E5229EE /* RSSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09754F17724CD4FCAC38CB767715DB0F /* RSSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A45E0D29C9DE5C4BA7EE936A0FBE03CD /* NSString+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B2771C5FBC9AD1F6F1378C0D6EC8EB /* NSString+Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACA2389BC77D32085AF87A23F9B23951 /* UIScreen+OrientationSize.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC80C53800E7F835135E95D42D326A2 /* UIScreen+OrientationSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1592F016D885FE8160083941730FB15 /* FastCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DD68C021C8FCC85BB72B762181011D /* FastCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5805DCE34FE94632F26C34C926C1AD5 /* UIViewController+DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F51D5C0CEFE0639CB0733598C4F957 /* UIViewController+DisplayController.m */; };
-		B5D5A0D4AC4D0BACF9BCBCEC51CB4115 /* NSString+ColorValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C9070B25FB8DD77F3B551BE6EFBDC7 /* NSString+ColorValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B77FF6F9107DE613BF0003243840F80A /* NSString+FunctionOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C894B64417C0836A20987E14214E03 /* NSString+FunctionOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAAE30C078F5629C2D7BDF5A9BAB29DE /* UITableViewHeaderFooterView+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D73846941B41218DB16D0ACC643F667 /* UITableViewHeaderFooterView+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAFB0268863E7B626FBC214CB20C0D0E /* UIView+Style.h in Headers */ = {isa = PBXBuildFile; fileRef = 121A1E78555535F8D76BECF3D135F6C0 /* UIView+Style.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFF68952E4FC01D81A9967B105932FDB /* UIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = C50A86C7A2211070734E46B4C7D74829 /* UIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C067617732577A08F1A8B5BE176F8FB3 /* UIScreen+OrientationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E06B365E68059F18D95667EFFDF0E828 /* UIScreen+OrientationSize.m */; };
-		C13B1E68AE9620FB47155BA024FD9A9F /* NSObject+PerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFBF41783F979CC06E3B431E319C393 /* NSObject+PerformSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C30E52F1522A05E8E32445E7D9D856D7 /* NSString+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 007B208FADC8AD0D3D900524A580BFB2 /* NSString+Attribute.m */; };
+		A565ECD6845E22DDED595FFA648591FB /* NSObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD1DC521FBF006F3AE1371DF576B176 /* NSObject+Persistent.m */; };
+		A57ED42672F010628240072B39563A77 /* NSObject+SubClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = D21787EACC5AC37FE52C5A304BA4F3B3 /* NSObject+SubClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61557A77B7E9B522DF0836D061F44A7 /* NSObject+DistributeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AA758758E5CACEFDDE3CAA8C045BB /* NSObject+DistributeSelector.m */; };
+		ABA3C728EF4C25EEAC1DB5AA51EC5188 /* NSObject+DynamicProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E979ABF555247F574BA3FD458B56E8BE /* NSObject+DynamicProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC159FB6A8B05F29916ACB86AFA1A5D4 /* NSObject+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90D0AF02A914060C95DD3BF69F2757A /* NSObject+FileManager.m */; };
+		BD172B02D15FA7C747357631193B59E5 /* NSObject+FileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 830BAADBF4FB3B41A743C6BCC0DE41E2 /* NSObject+FileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF653877802E6D7AD0DD3D2D73410ACC /* NSObject+TypeEnsure.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6A30F65FCE85CF528C240AA454A439 /* NSObject+TypeEnsure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0B2246B237A89862161C74FA98690A9 /* CommonAdaptive.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0BDA5CAEE0C290F5C4761B64ECEC82 /* CommonAdaptive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3EF29BECFCFD49383818884498C3601 /* Pods-MineCommonUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20398E9A10FDF9AFE55F896B42AC5B8B /* Pods-MineCommonUtils_Example-dummy.m */; };
-		CC7761F1247C01CC24545D28C89D8D49 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9DEB9EB3BE7DE694E409512F4E486 /* UIView+Hierarchy.m */; };
-		CCA6179C9381D85E16601AED10F80A4E /* NSObject+DynamicProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F664654CAA7145CC0B293AD7254E34 /* NSObject+DynamicProperty.m */; };
-		D0CC3ED140BAA778631A88C0E8526BA2 /* JSONLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A7830D5E9FBB7BD31C1CA26E3AAD782E /* JSONLog.m */; };
+		C8E46F775553546CDF3E4C968BD4DA9A /* FastCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFD71F99C4735827CB2F6A0EB43B701 /* FastCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AB5286C0F61B6DB8EFE04C0BF82830 /* TimeConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE39769A9FFD8C319860CB547EE7499 /* TimeConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D391A8DAF4C7476DADA2A850403FC68D /* RSSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A72047A997869F735667CE96967778 /* RSSwizzle-dummy.m */; };
-		D85967DE9EB94341D10921FC413905C7 /* UIViewController+DisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C91368BDAD140C2A66DE8B89FEDD4D9 /* UIViewController+DisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85F350BE42372144219DE058B535D99 /* NSObject+Persistent.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA0ABA8F4F1AB0A8A4A6691393FD968 /* NSObject+Persistent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F008881EA3FDF32CC9F5DD70E2FE18 /* UITableViewCell+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E940C6225FD76B29AA0F8B9515B8463D /* UITableViewCell+IndexPath.m */; };
 		DA707E56F80DBDDBB21E8181566D1239 /* RSSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32232A6C3EA95C953655116762DFCF10 /* RSSwizzle.framework */; };
-		DF07E962F6B610FB93D126177A238674 /* UICollectionViewCell+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DC28E2F14513BC44309985185A0A7A6B /* UICollectionViewCell+IndexPath.m */; };
-		DF29AE6D0C32B2157915CB61DBA894E1 /* MineCommonUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7B023B73C4697F1C392801543AF59 /* MineCommonUtils-dummy.m */; };
-		E0F3ADC4CC8F481CDFD92F75B43F4729 /* NSArray+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91540DE762F7D19CA4C388955825447E /* NSArray+FunctionOperate.m */; };
+		DA95570848D54F5AC2834D39902A5B39 /* NSString+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D11EFA5C19C33716C6450B6B926525 /* NSString+Attribute.m */; };
+		DD575839E5766B277C82ED60B40E1C17 /* UIViewController+DisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 25604F8ED95A0409DEDD005AE3DFB188 /* UIViewController+DisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDFE525C94079EB13A9EDDCCD3961B7F /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC64AC6E404021E70E6BF225569EAF6 /* UIView+Style.m */; };
+		DF94B50ADC2A06A1579BDF9C9788997B /* UIViewController+DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7DCDFCBFCD01E69DED5E704CF76E8 /* UIViewController+DisplayController.m */; };
+		DFAC424D9F21253BA39C1CA226424ACF /* UICollectionView+Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBDBE2FFA0436762F0432BA6AEFB82 /* UICollectionView+Reuse.m */; };
+		E2EAF0FF6F6B0474792A8F80EC81E690 /* UITableViewHeaderFooterView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E637E9FE40AC955B0BCFEFB2DC1BE /* UITableViewHeaderFooterView+IndexPath.m */; };
+		E30AD238E31C6A3D2B67FFAB173CF5D1 /* NSString+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F0824D7BF408F97DECA0A758AD5C19 /* NSString+Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6415F2C5760806209B6B52557738AFC /* Pods-MineCommonUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1270CD76C17060AE96D2E1B62EEC61F4 /* Pods-MineCommonUtils_Tests-dummy.m */; };
-		EACF5831F735506FE3F7A33DF7DB84EB /* NSString+FunctionOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B45AFBBA1FFDE9C3275DEC0BE02702A /* NSString+FunctionOperate.m */; };
-		EF1BE0855F59DCB81FE16EF00EF8346B /* NSObject+DynamicProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 13310340DC33B8482A5C85E74440BB02 /* NSObject+DynamicProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E77BC4BC9762E5CE6C048F4C45FA1C0E /* UICollectionReusableView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A8BF6376BD7E129682E6C05BF18F2F /* UICollectionReusableView+IndexPath.m */; };
+		EF4005856970AEC97A11AB08DD9B2FAB /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE937D8CBC197E7C52E4E45A25DD7 /* Scheduler.m */; };
 		F067C938507A12D48ACE187DD489A0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870E6C6082D5FC52817590B4801E86 /* Foundation.framework */; };
-		F0E7346BD4A69C8A958FA15A7AB70F5F /* UIView+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 183F2D1ED08601A4791CBD7038D9165D /* UIView+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1244100A0497697D4714347DA281EA1 /* UITableViewCell+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 812B6247B6E154A05B4AEE1BA8C8603E /* UITableViewCell+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1E2FE8FF6A329DFF77CC26D1DFA838A /* NSObject+DistributeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C9600D9F5E37DCBA002B1E8D275FDD /* NSObject+DistributeSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2D218166651783EC6025B4E3BB5EBD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870E6C6082D5FC52817590B4801E86 /* Foundation.framework */; };
-		F638E3FE3A9EE709103A26566996E89C /* CommonAdaptive.h in Headers */ = {isa = PBXBuildFile; fileRef = D150818A27BF6C9EF86090F817845A59 /* CommonAdaptive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F407D740F73CBF09DAFA7101B29AD81D /* NSObject+PerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FB1527C8262C81B6B57875776F9EF5 /* NSObject+PerformSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E6FE192F117D10F4DF33CF448F6EF4 /* MineCommonUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717D54F9CB7ECFCF3DA101347CD32DF0 /* MineCommonUtils-dummy.m */; };
+		F59669D538FB2E4FD54C763382A5E6B5 /* NSString+ColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA36B954B7E332871E374394DF0A6F /* NSString+ColorValue.m */; };
 		F64DC59193068F3B0FF10FFCBA5428DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CE7AF58803C75815B6F420DE3FA248 /* UIKit.framework */; };
+		F6FB3403BE9B69675580D0DA0C569B7E /* UITableView+Reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FADF4656F6F2742756CDD4FAB59819 /* UITableView+Reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9CDE672F852110BEDB04BE0D785CF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870E6C6082D5FC52817590B4801E86 /* Foundation.framework */; };
-		FB79A1E840CE3690A4E00C2FBBE1D870 /* NSObject+SubClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CD11A75CA293E29E2AE2D837A98093 /* NSObject+SubClasses.m */; };
+		FBCB69F140AC6160CC63BEF0B0A51D1F /* NSString+ColorValue.h in Headers */ = {isa = PBXBuildFile; fileRef = D351D131EB309CC355DBFB70C295184C /* NSString+ColorValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF19F7B61951CF4871A160586DB1D8E /* UICollectionViewCell+IndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = CB21ECB075D143D20189894B1F4D4901 /* UICollectionViewCell+IndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFCED93F7D1729987ED064D6E0A28742 /* CommonAdaptive.m in Sources */ = {isa = PBXBuildFile; fileRef = F3221A437930A209751771E9C9F056B6 /* CommonAdaptive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,114 +120,114 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007B208FADC8AD0D3D900524A580BFB2 /* NSString+Attribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Attribute.m"; path = "MineCommonUtils/NSString+Attribute.m"; sourceTree = "<group>"; };
-		05C894B64417C0836A20987E14214E03 /* NSString+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FunctionOperate.h"; path = "MineCommonUtils/NSString+FunctionOperate.h"; sourceTree = "<group>"; };
+		023F28A87597DA051164714DD14BBEEB /* TimeConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimeConvert.m; path = MineCommonUtils/TimeConvert.m; sourceTree = "<group>"; };
+		0483B26E75E87E2B2E721BA9C8A169F3 /* Scheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Scheduler.h; path = MineCommonUtils/Scheduler.h; sourceTree = "<group>"; };
 		09754F17724CD4FCAC38CB767715DB0F /* RSSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSwizzle-umbrella.h"; sourceTree = "<group>"; };
-		0BA71522BD5DF4C019ADA6D11AFDC5D1 /* NSString+ColorValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ColorValue.m"; path = "MineCommonUtils/NSString+ColorValue.m"; sourceTree = "<group>"; };
 		0BD98E20065D346163EB9F18E732F71C /* RSSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSSwizzle.modulemap; sourceTree = "<group>"; };
-		0CA7B023B73C4697F1C392801543AF59 /* MineCommonUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineCommonUtils-dummy.m"; sourceTree = "<group>"; };
 		0D352913878D62FB630A2057B73CE52C /* Pods-MineCommonUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineCommonUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D47D92EF7BEEED419DA56277AE7E8FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E398CD7EC5AE3D348CF330D5EAC509E /* MineCommonUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineCommonUtils-prefix.pch"; sourceTree = "<group>"; };
+		0E40534427962179EF99F3C44473506A /* NSObject+PerformSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PerformSelector.m"; path = "MineCommonUtils/NSObject+PerformSelector.m"; sourceTree = "<group>"; };
 		0E498D23954C9DFA01DA691575F9B915 /* MineCommonUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MineCommonUtils.framework; path = MineCommonUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF909DB436F97D9C661564D2C7D0300 /* UITableViewHeaderFooterView+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+IndexPath.h"; path = "MineCommonUtils/UITableViewHeaderFooterView+IndexPath.h"; sourceTree = "<group>"; };
 		0F62F2DA876D0E61DCB61F555EABC5DC /* Pods-MineCommonUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineCommonUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		121A1E78555535F8D76BECF3D135F6C0 /* UIView+Style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Style.h"; path = "MineCommonUtils/UIView+Style.h"; sourceTree = "<group>"; };
+		108E80C07FEC35E9AB9A758E8C894FBE /* UIView+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Chain.m"; path = "MineCommonUtils/UIView+Chain.m"; sourceTree = "<group>"; };
 		1270CD76C17060AE96D2E1B62EEC61F4 /* Pods-MineCommonUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineCommonUtils_Tests-dummy.m"; sourceTree = "<group>"; };
-		13310340DC33B8482A5C85E74440BB02 /* NSObject+DynamicProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DynamicProperty.h"; path = "MineCommonUtils/NSObject+DynamicProperty.h"; sourceTree = "<group>"; };
-		1663FF8D3C39282ED33A72F00AC1A6E4 /* NSObject+Persistent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Persistent.h"; path = "MineCommonUtils/NSObject+Persistent.h"; sourceTree = "<group>"; };
-		183F2D1ED08601A4791CBD7038D9165D /* UIView+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Chain.h"; path = "MineCommonUtils/UIView+Chain.h"; sourceTree = "<group>"; };
-		19CD11A75CA293E29E2AE2D837A98093 /* NSObject+SubClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SubClasses.m"; path = "MineCommonUtils/NSObject+SubClasses.m"; sourceTree = "<group>"; };
-		1C91368BDAD140C2A66DE8B89FEDD4D9 /* UIViewController+DisplayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DisplayController.h"; path = "MineCommonUtils/UIViewController+DisplayController.h"; sourceTree = "<group>"; };
-		1D73846941B41218DB16D0ACC643F667 /* UITableViewHeaderFooterView+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+IndexPath.h"; path = "MineCommonUtils/UITableViewHeaderFooterView+IndexPath.h"; sourceTree = "<group>"; };
+		15A9A86EDE12AC2F34E5913C90BC9ACC /* MineCommonUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MineCommonUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19F0824D7BF408F97DECA0A758AD5C19 /* NSString+Attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Attribute.h"; path = "MineCommonUtils/NSString+Attribute.h"; sourceTree = "<group>"; };
+		1AB520176CF831688634F09570A31F55 /* UIScreen+OrientationSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+OrientationSize.m"; path = "MineCommonUtils/UIScreen+OrientationSize.m"; sourceTree = "<group>"; };
 		20398E9A10FDF9AFE55F896B42AC5B8B /* Pods-MineCommonUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineCommonUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		220B7CAE9C9CB242F92C83B25BE96A66 /* NSDictionary+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FunctionOperate.h"; path = "MineCommonUtils/NSDictionary+FunctionOperate.h"; sourceTree = "<group>"; };
+		221AA758758E5CACEFDDE3CAA8C045BB /* NSObject+DistributeSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DistributeSelector.m"; path = "MineCommonUtils/NSObject+DistributeSelector.m"; sourceTree = "<group>"; };
 		23BFABB644B0ADA39EF4452CBB9BA611 /* Pods-MineCommonUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineCommonUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2484FCF9A979C744FA26830C9E71FBCD /* NSObject+SubClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SubClasses.m"; path = "MineCommonUtils/NSObject+SubClasses.m"; sourceTree = "<group>"; };
+		25604F8ED95A0409DEDD005AE3DFB188 /* UIViewController+DisplayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DisplayController.h"; path = "MineCommonUtils/UIViewController+DisplayController.h"; sourceTree = "<group>"; };
 		26100769D14266A23E116B495A587F90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26153A38152B25FB5C96DC9AC425F0F5 /* FastCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FastCoder.m; path = MineCommonUtils/FastCoder.m; sourceTree = "<group>"; };
-		27C5B1469AAD70E17B6D2568D1E1C558 /* NSObject+TypeEnsure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TypeEnsure.m"; path = "MineCommonUtils/NSObject+TypeEnsure.m"; sourceTree = "<group>"; };
 		2D97CD7C91BC343638C96839E8BF7966 /* Pods-MineCommonUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineCommonUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		32232A6C3EA95C953655116762DFCF10 /* RSSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32516C1441676A1B3E4092C683D50A5F /* UIView+CoverScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CoverScope.h"; path = "MineCommonUtils/UIView+CoverScope.h"; sourceTree = "<group>"; };
-		32DFAAF9985560A28205B18444FA559B /* UICollectionViewCell+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+IndexPath.h"; path = "MineCommonUtils/UICollectionViewCell+IndexPath.h"; sourceTree = "<group>"; };
+		34BBB85372586590E316AF97F1868C86 /* NSString+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FunctionOperate.m"; path = "MineCommonUtils/NSString+FunctionOperate.m"; sourceTree = "<group>"; };
 		37FB9B78813F8782F165C93262D99E3B /* Pods-MineCommonUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineCommonUtils_Example.modulemap"; sourceTree = "<group>"; };
 		385AB4D158F9B74BF142A206744EF169 /* Pods-MineCommonUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineCommonUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3CFD71F99C4735827CB2F6A0EB43B701 /* FastCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastCoder.h; path = MineCommonUtils/FastCoder.h; sourceTree = "<group>"; };
 		3DC1D3B040113183EB41CBE4D60E36EB /* RSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSwizzle.m; path = RSSwizzle/RSSwizzle.m; sourceTree = "<group>"; };
-		3E43F8FA5BA2A5AF93B14522BE2A6E2C /* NSDictionary+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FunctionOperate.m"; path = "MineCommonUtils/NSDictionary+FunctionOperate.m"; sourceTree = "<group>"; };
-		42D0E5310F89A412656EE8B2E9F8C166 /* MineCommonUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MineCommonUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46762AE986DCC485C7152C05B40156D3 /* NSObject+FileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FileManager.m"; path = "MineCommonUtils/NSObject+FileManager.m"; sourceTree = "<group>"; };
+		3F8ACEAE4059D73F29D7B429F91DADA3 /* UIResponder+ResponderChainExtraInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ResponderChainExtraInformation.m"; path = "MineCommonUtils/UIResponder+ResponderChainExtraInformation.m"; sourceTree = "<group>"; };
+		3FBA36B954B7E332871E374394DF0A6F /* NSString+ColorValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ColorValue.m"; path = "MineCommonUtils/NSString+ColorValue.m"; sourceTree = "<group>"; };
 		46EEF194496293E381CCD97A97C7DAB6 /* Pods-MineCommonUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineCommonUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		474390561197500AAD01D6C85D93A5CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47AE526C16CC44E2F14EDD9E54FCE203 /* UIView+CoverScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CoverScope.m"; path = "MineCommonUtils/UIView+CoverScope.m"; sourceTree = "<group>"; };
-		4AF09927151A8D076CE80B82EF9773DF /* NSObject+DistributeSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DistributeSelector.m"; path = "MineCommonUtils/NSObject+DistributeSelector.m"; sourceTree = "<group>"; };
-		4C54416902D221007BCB76C0F8CA5F19 /* GCD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCD.h; path = MineCommonUtils/GCD.h; sourceTree = "<group>"; };
-		4E869470DC9A8B8BCA9A38576A1F577E /* NSObject+PerformSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PerformSelector.m"; path = "MineCommonUtils/NSObject+PerformSelector.m"; sourceTree = "<group>"; };
-		51B2771C5FBC9AD1F6F1378C0D6EC8EB /* NSString+Attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Attribute.h"; path = "MineCommonUtils/NSString+Attribute.h"; sourceTree = "<group>"; };
-		51B879A98B6A80EC4284315A6EAA6160 /* NSObject+FileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FileManager.h"; path = "MineCommonUtils/NSObject+FileManager.h"; sourceTree = "<group>"; };
-		54DD68C021C8FCC85BB72B762181011D /* FastCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastCoder.h; path = MineCommonUtils/FastCoder.h; sourceTree = "<group>"; };
-		54E174D75D657C91B4788763BF6A64D7 /* NSObject+TypeEnsure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TypeEnsure.h"; path = "MineCommonUtils/NSObject+TypeEnsure.h"; sourceTree = "<group>"; };
+		4B6461D1D7022807E28F56E4D58FF67A /* UICollectionView+Reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+Reuse.h"; path = "MineCommonUtils/UICollectionView+Reuse.h"; sourceTree = "<group>"; };
+		4CC64AC6E404021E70E6BF225569EAF6 /* UIView+Style.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Style.m"; path = "MineCommonUtils/UIView+Style.m"; sourceTree = "<group>"; };
 		571FD6F3402F6A6C9E6CE57C2E3D37D1 /* Pods-MineCommonUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineCommonUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57FB2A282E27F0EF9F792D0110A67C86 /* UICollectionReusableView+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+IndexPath.m"; path = "MineCommonUtils/UICollectionReusableView+IndexPath.m"; sourceTree = "<group>"; };
-		59B693E87931F7756433D819DE1D06E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E6EEF75B3EDAE35A131E48142828DBE /* UIView+Style.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Style.m"; path = "MineCommonUtils/UIView+Style.m"; sourceTree = "<group>"; };
-		62C9070B25FB8DD77F3B551BE6EFBDC7 /* NSString+ColorValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ColorValue.h"; path = "MineCommonUtils/NSString+ColorValue.h"; sourceTree = "<group>"; };
-		6375EB5102800597B472359F6CFE2CBE /* MineCommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MineCommonUtils.h; path = MineCommonUtils/MineCommonUtils.h; sourceTree = "<group>"; };
-		6A5D32D2CDD51A3437759F59C723EFEC /* CommonAdaptive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonAdaptive.m; path = MineCommonUtils/CommonAdaptive.m; sourceTree = "<group>"; };
-		6B45AFBBA1FFDE9C3275DEC0BE02702A /* NSString+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FunctionOperate.m"; path = "MineCommonUtils/NSString+FunctionOperate.m"; sourceTree = "<group>"; };
+		59FADF4656F6F2742756CDD4FAB59819 /* UITableView+Reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Reuse.h"; path = "MineCommonUtils/UITableView+Reuse.h"; sourceTree = "<group>"; };
+		5E0BDA5CAEE0C290F5C4761B64ECEC82 /* CommonAdaptive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonAdaptive.h; path = MineCommonUtils/CommonAdaptive.h; sourceTree = "<group>"; };
+		63DE781CF6497D37082CF20B811FB003 /* NSObject+DynamicProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DynamicProperty.m"; path = "MineCommonUtils/NSObject+DynamicProperty.m"; sourceTree = "<group>"; };
+		65B46A7C8810FAA62DB0007F5BAAEB11 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Hierarchy.m"; path = "MineCommonUtils/UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		6837E8BD1B69A8B3429B10FF218F25BA /* UIView+CoverScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CoverScope.m"; path = "MineCommonUtils/UIView+CoverScope.m"; sourceTree = "<group>"; };
+		69A48D8DA681A50E6B2E15CA2100474B /* NSObject+DistributeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DistributeSelector.h"; path = "MineCommonUtils/NSObject+DistributeSelector.h"; sourceTree = "<group>"; };
 		70CE7AF58803C75815B6F420DE3FA248 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		72C76A561961FE1B041B6C47106EE803 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		733DD68CA7298A424B091770E186A6CC /* TimeConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimeConvert.m; path = MineCommonUtils/TimeConvert.m; sourceTree = "<group>"; };
-		77F84390D451BD3A49F9A2EAD781EAE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		717D54F9CB7ECFCF3DA101347CD32DF0 /* MineCommonUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineCommonUtils-dummy.m"; sourceTree = "<group>"; };
 		7B14D1F6AB48F8199E8A97D066E0C896 /* Pods-MineCommonUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineCommonUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7B25567FCBFC50A02C875F3A03E2BFB3 /* UITableViewHeaderFooterView+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+IndexPath.m"; path = "MineCommonUtils/UITableViewHeaderFooterView+IndexPath.m"; sourceTree = "<group>"; };
-		7BF41AE747A22F3F5E18B2F5093FD2A7 /* UITableViewCell+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+IndexPath.m"; path = "MineCommonUtils/UITableViewCell+IndexPath.m"; sourceTree = "<group>"; };
-		7E5C61D601C3B35DEBE85F15D7CD65FF /* UICollectionView+Reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+Reuse.m"; path = "MineCommonUtils/UICollectionView+Reuse.m"; sourceTree = "<group>"; };
+		7D6A30F65FCE85CF528C240AA454A439 /* NSObject+TypeEnsure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TypeEnsure.h"; path = "MineCommonUtils/NSObject+TypeEnsure.h"; sourceTree = "<group>"; };
+		7DFDDB1433D0268036E0DD788FBEFECF /* UIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Hierarchy.h"; path = "MineCommonUtils/UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		7ED10863D0B264ADBB2DFADE3BC64947 /* UICollectionViewCell+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+IndexPath.m"; path = "MineCommonUtils/UICollectionViewCell+IndexPath.m"; sourceTree = "<group>"; };
+		7FD060EBE3B59FDA6370E5E4EAC7E38A /* UIView+WidgetPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WidgetPosition.h"; path = "MineCommonUtils/UIView+WidgetPosition.h"; sourceTree = "<group>"; };
 		8035E967BD4668294BC04A94FD86CC45 /* Pods-MineCommonUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineCommonUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		80AEA520682A5E6FA24180E755F1B63D /* NSDictionary+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FunctionOperate.h"; path = "MineCommonUtils/NSDictionary+FunctionOperate.h"; sourceTree = "<group>"; };
-		812B6247B6E154A05B4AEE1BA8C8603E /* UITableViewCell+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+IndexPath.h"; path = "MineCommonUtils/UITableViewCell+IndexPath.h"; sourceTree = "<group>"; };
 		81FD63186DEEDA1E7DFAEF6D517B9499 /* Pods_MineCommonUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineCommonUtils_Example.framework; path = "Pods-MineCommonUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83F664654CAA7145CC0B293AD7254E34 /* NSObject+DynamicProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DynamicProperty.m"; path = "MineCommonUtils/NSObject+DynamicProperty.m"; sourceTree = "<group>"; };
-		8447AFAB06A40C2E1D6633EB609793A9 /* UITableView+Reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Reuse.m"; path = "MineCommonUtils/UITableView+Reuse.m"; sourceTree = "<group>"; };
-		8BFBF41783F979CC06E3B431E319C393 /* NSObject+PerformSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PerformSelector.h"; path = "MineCommonUtils/NSObject+PerformSelector.h"; sourceTree = "<group>"; };
+		830BAADBF4FB3B41A743C6BCC0DE41E2 /* NSObject+FileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FileManager.h"; path = "MineCommonUtils/NSObject+FileManager.h"; sourceTree = "<group>"; };
+		8573255BBDB6B730D929115F91B1B691 /* JSONLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONLog.h; path = MineCommonUtils/JSONLog.h; sourceTree = "<group>"; };
 		8E20FA839981F192B601AA88B9F81BED /* Pods_MineCommonUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineCommonUtils_Tests.framework; path = "Pods-MineCommonUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91540DE762F7D19CA4C388955825447E /* NSArray+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FunctionOperate.m"; path = "MineCommonUtils/NSArray+FunctionOperate.m"; sourceTree = "<group>"; };
+		91CA62A78E63F99D68707E00EC98E295 /* NSObject+TypeEnsure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TypeEnsure.m"; path = "MineCommonUtils/NSObject+TypeEnsure.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9403A5C5A5D6F1AAA8C93096FC74C495 /* Pods-MineCommonUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineCommonUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98224B7FA71D1E9F9F56ED9338978D0F /* MineCommonUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineCommonUtils.modulemap; sourceTree = "<group>"; };
-		9C39E8AE4545171C9A181BE0D576CDA9 /* UIView+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Chain.m"; path = "MineCommonUtils/UIView+Chain.m"; sourceTree = "<group>"; };
-		A7830D5E9FBB7BD31C1CA26E3AAD782E /* JSONLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONLog.m; path = MineCommonUtils/JSONLog.m; sourceTree = "<group>"; };
-		ABAD3A4EFFD9DE7278D81AD8DAEFC235 /* NSArray+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FunctionOperate.h"; path = "MineCommonUtils/NSArray+FunctionOperate.h"; sourceTree = "<group>"; };
+		96437D68602A2CDECE64180C66ABEB98 /* UICollectionReusableView+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+IndexPath.h"; path = "MineCommonUtils/UICollectionReusableView+IndexPath.h"; sourceTree = "<group>"; };
+		96517989199FBEB647559E12D21D4E0D /* UIResponder+ResponderChainExtraInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ResponderChainExtraInformation.h"; path = "MineCommonUtils/UIResponder+ResponderChainExtraInformation.h"; sourceTree = "<group>"; };
+		9941BDD73C17630FF7463261D8D99BCD /* MineCommonUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineCommonUtils.modulemap; sourceTree = "<group>"; };
+		9B06C2240FAF339F327E67190AEF6657 /* NSDictionary+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FunctionOperate.m"; path = "MineCommonUtils/NSDictionary+FunctionOperate.m"; sourceTree = "<group>"; };
+		A2EAF89C3DAF7E9F9E8681C67AC18D4A /* UITableView+Reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Reuse.m"; path = "MineCommonUtils/UITableView+Reuse.m"; sourceTree = "<group>"; };
+		A41744EB0ED57A343983A75BB577BC1D /* MineCommonUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineCommonUtils-prefix.pch"; sourceTree = "<group>"; };
+		A5A8BF6376BD7E129682E6C05BF18F2F /* UICollectionReusableView+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionReusableView+IndexPath.m"; path = "MineCommonUtils/UICollectionReusableView+IndexPath.m"; sourceTree = "<group>"; };
+		A5A99FCE1C9025C40EB38B2E064A326B /* NSString+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FunctionOperate.h"; path = "MineCommonUtils/NSString+FunctionOperate.h"; sourceTree = "<group>"; };
+		A90D0AF02A914060C95DD3BF69F2757A /* NSObject+FileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FileManager.m"; path = "MineCommonUtils/NSObject+FileManager.m"; sourceTree = "<group>"; };
+		ABCBDBE2FFA0436762F0432BA6AEFB82 /* UICollectionView+Reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+Reuse.m"; path = "MineCommonUtils/UICollectionView+Reuse.m"; sourceTree = "<group>"; };
+		AC9CC266F709F1EE5A79DFBB944435C0 /* UIView+Style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Style.h"; path = "MineCommonUtils/UIView+Style.h"; sourceTree = "<group>"; };
+		ADA3739EEA9065DCD37D7AAD665AB883 /* NSArray+FunctionOperate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FunctionOperate.m"; path = "MineCommonUtils/NSArray+FunctionOperate.m"; sourceTree = "<group>"; };
+		AF05A9F0C410A2A68917873160E46FE3 /* MineCommonUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineCommonUtils.xcconfig; sourceTree = "<group>"; };
+		B03362C6FC01F2C1B842F2C2E15531C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0870E6C6082D5FC52817590B4801E86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B5568F4854FEDA7870B91B5E7AD3ACE2 /* NSObject+Persistent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Persistent.m"; path = "MineCommonUtils/NSObject+Persistent.m"; sourceTree = "<group>"; };
-		B5C9600D9F5E37DCBA002B1E8D275FDD /* NSObject+DistributeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DistributeSelector.h"; path = "MineCommonUtils/NSObject+DistributeSelector.h"; sourceTree = "<group>"; };
-		B7534E1D102B053199739AA110FA3110 /* UIView+WidgetPosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WidgetPosition.m"; path = "MineCommonUtils/UIView+WidgetPosition.m"; sourceTree = "<group>"; };
-		C02474CEAFBB7E093D353C0E1C4CB5D8 /* UICollectionView+Reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+Reuse.h"; path = "MineCommonUtils/UICollectionView+Reuse.h"; sourceTree = "<group>"; };
+		BA0A7810C66AB7735EE758EB91DE1ECD /* UIScreen+OrientationSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+OrientationSize.h"; path = "MineCommonUtils/UIScreen+OrientationSize.h"; sourceTree = "<group>"; };
+		BC6E9E2115017DFA91BF9E9244E6D174 /* FastCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FastCoder.m; path = MineCommonUtils/FastCoder.m; sourceTree = "<group>"; };
+		BD1B146DCC54C1CDE4DEBB1F0F55F3BE /* JSONLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONLog.m; path = MineCommonUtils/JSONLog.m; sourceTree = "<group>"; };
+		C0A68BD5FE9089DF5CCFF7DB7C1E874F /* UIView+WidgetPosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WidgetPosition.m"; path = "MineCommonUtils/UIView+WidgetPosition.m"; sourceTree = "<group>"; };
 		C146794744184DDE356BA75D02794B3D /* RSSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSSwizzle.framework; path = RSSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CAE1ADFE9203960DC4C641CE282FA2 /* RSSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSwizzle-prefix.pch"; sourceTree = "<group>"; };
-		C50A86C7A2211070734E46B4C7D74829 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Hierarchy.h"; path = "MineCommonUtils/UIView+Hierarchy.h"; sourceTree = "<group>"; };
-		C6264804FE6F3D6534FEB9EB22935E83 /* UIView+WidgetPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WidgetPosition.h"; path = "MineCommonUtils/UIView+WidgetPosition.h"; sourceTree = "<group>"; };
-		C7F51D5C0CEFE0639CB0733598C4F957 /* UIViewController+DisplayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DisplayController.m"; path = "MineCommonUtils/UIViewController+DisplayController.m"; sourceTree = "<group>"; };
-		CEB10101DB789F807FEB53134CEB8900 /* JSONLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONLog.h; path = MineCommonUtils/JSONLog.h; sourceTree = "<group>"; };
-		CFFF368C2323A84FB03D851BF9983A84 /* NSObject+SubClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SubClasses.h"; path = "MineCommonUtils/NSObject+SubClasses.h"; sourceTree = "<group>"; };
-		D150818A27BF6C9EF86090F817845A59 /* CommonAdaptive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonAdaptive.h; path = MineCommonUtils/CommonAdaptive.h; sourceTree = "<group>"; };
+		C4FB1527C8262C81B6B57875776F9EF5 /* NSObject+PerformSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PerformSelector.h"; path = "MineCommonUtils/NSObject+PerformSelector.h"; sourceTree = "<group>"; };
+		C70D2B66CF734FD592CD955C7C114B2C /* MineCommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MineCommonUtils.h; path = MineCommonUtils/MineCommonUtils.h; sourceTree = "<group>"; };
+		CB21ECB075D143D20189894B1F4D4901 /* UICollectionViewCell+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+IndexPath.h"; path = "MineCommonUtils/UICollectionViewCell+IndexPath.h"; sourceTree = "<group>"; };
+		CB5E637E9FE40AC955B0BCFEFB2DC1BE /* UITableViewHeaderFooterView+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+IndexPath.m"; path = "MineCommonUtils/UITableViewHeaderFooterView+IndexPath.m"; sourceTree = "<group>"; };
+		CEEBE937D8CBC197E7C52E4E45A25DD7 /* Scheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Scheduler.m; path = MineCommonUtils/Scheduler.m; sourceTree = "<group>"; };
+		D21787EACC5AC37FE52C5A304BA4F3B3 /* NSObject+SubClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SubClasses.h"; path = "MineCommonUtils/NSObject+SubClasses.h"; sourceTree = "<group>"; };
+		D26B2F41C863516B2484599D6B4AC923 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D351D131EB309CC355DBFB70C295184C /* NSString+ColorValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ColorValue.h"; path = "MineCommonUtils/NSString+ColorValue.h"; sourceTree = "<group>"; };
+		D884964896FA795D86DC89B480AC8AC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D8A5DD1DF744DA6828608E36FF8FADA5 /* UIView+CoverScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CoverScope.h"; path = "MineCommonUtils/UIView+CoverScope.h"; sourceTree = "<group>"; };
 		D8F59B69C4F9A4974C902354C72C7FB5 /* Pods-MineCommonUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineCommonUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC28E2F14513BC44309985185A0A7A6B /* UICollectionViewCell+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+IndexPath.m"; path = "MineCommonUtils/UICollectionViewCell+IndexPath.m"; sourceTree = "<group>"; };
+		D9B0D85BF55D48D5F1AF73AD7FE71FC6 /* UIView+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Chain.h"; path = "MineCommonUtils/UIView+Chain.h"; sourceTree = "<group>"; };
+		DAE39769A9FFD8C319860CB547EE7499 /* TimeConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeConvert.h; path = MineCommonUtils/TimeConvert.h; sourceTree = "<group>"; };
+		DBD1DC521FBF006F3AE1371DF576B176 /* NSObject+Persistent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Persistent.m"; path = "MineCommonUtils/NSObject+Persistent.m"; sourceTree = "<group>"; };
 		DD3F97160FD0D674ADF18E1DA5FD217B /* Pods-MineCommonUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineCommonUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E06B365E68059F18D95667EFFDF0E828 /* UIScreen+OrientationSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+OrientationSize.m"; path = "MineCommonUtils/UIScreen+OrientationSize.m"; sourceTree = "<group>"; };
-		E07EBE52556AA78B4E750A444A23B0D9 /* TimeConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeConvert.h; path = MineCommonUtils/TimeConvert.h; sourceTree = "<group>"; };
 		E2B4ABBD0F65D12A49F65A75720AABAD /* RSSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSSwizzle.xcconfig; sourceTree = "<group>"; };
 		E2D99DCC62C1C77B09256B38705CD2E4 /* Pods-MineCommonUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineCommonUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		E3A72047A997869F735667CE96967778 /* RSSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSSwizzle-dummy.m"; sourceTree = "<group>"; };
-		E417D33AC1A7EB672DF7E9B7FB9B0AA3 /* UICollectionReusableView+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+IndexPath.h"; path = "MineCommonUtils/UICollectionReusableView+IndexPath.h"; sourceTree = "<group>"; };
-		E59B67A7BE15EDE5131F660A8AA9B1E4 /* UIResponder+ResponderChainExtraInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ResponderChainExtraInformation.h"; path = "MineCommonUtils/UIResponder+ResponderChainExtraInformation.h"; sourceTree = "<group>"; };
+		E7C7DCDFCBFCD01E69DED5E704CF76E8 /* UIViewController+DisplayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DisplayController.m"; path = "MineCommonUtils/UIViewController+DisplayController.m"; sourceTree = "<group>"; };
+		E7CF154C91A5808C2BBEDA63C9CC1A0D /* NSArray+FunctionOperate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FunctionOperate.h"; path = "MineCommonUtils/NSArray+FunctionOperate.h"; sourceTree = "<group>"; };
+		E940C6225FD76B29AA0F8B9515B8463D /* UITableViewCell+IndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+IndexPath.m"; path = "MineCommonUtils/UITableViewCell+IndexPath.m"; sourceTree = "<group>"; };
+		E979ABF555247F574BA3FD458B56E8BE /* NSObject+DynamicProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DynamicProperty.h"; path = "MineCommonUtils/NSObject+DynamicProperty.h"; sourceTree = "<group>"; };
+		EC43B03EFBC707E1FCDB9374D0924F11 /* MineCommonUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineCommonUtils-umbrella.h"; sourceTree = "<group>"; };
+		EFA0ABA8F4F1AB0A8A4A6691393FD968 /* NSObject+Persistent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Persistent.h"; path = "MineCommonUtils/NSObject+Persistent.h"; sourceTree = "<group>"; };
 		F1E15B694AFA5AA4A15F5504E888BF29 /* Pods-MineCommonUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineCommonUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		F26FA9F5D0B23369299251303C12A212 /* UIResponder+ResponderChainExtraInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ResponderChainExtraInformation.m"; path = "MineCommonUtils/UIResponder+ResponderChainExtraInformation.m"; sourceTree = "<group>"; };
-		F281FC67790965AF75734A61CC2F4061 /* MineCommonUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineCommonUtils.xcconfig; sourceTree = "<group>"; };
-		F55BBA5197869A6D80EEC95219ADE053 /* MineCommonUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineCommonUtils-umbrella.h"; sourceTree = "<group>"; };
-		F5A9DEB9EB3BE7DE694E409512F4E486 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Hierarchy.m"; path = "MineCommonUtils/UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		F3221A437930A209751771E9C9F056B6 /* CommonAdaptive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonAdaptive.m; path = MineCommonUtils/CommonAdaptive.m; sourceTree = "<group>"; };
+		F50F1D2DEE73BEA87AA0D5189DD61A0D /* UITableViewCell+IndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+IndexPath.h"; path = "MineCommonUtils/UITableViewCell+IndexPath.h"; sourceTree = "<group>"; };
+		F6D11EFA5C19C33716C6450B6B926525 /* NSString+Attribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Attribute.m"; path = "MineCommonUtils/NSString+Attribute.m"; sourceTree = "<group>"; };
 		F9259E0E2D402DE3D221C907D46BDAAB /* RSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSwizzle.h; path = RSSwizzle/RSSwizzle.h; sourceTree = "<group>"; };
 		F9D95D19443BEFFB1717B43DE20426D5 /* Pods-MineCommonUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineCommonUtils_Example-resources.sh"; sourceTree = "<group>"; };
-		FBC80C53800E7F835135E95D42D326A2 /* UIScreen+OrientationSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+OrientationSize.h"; path = "MineCommonUtils/UIScreen+OrientationSize.h"; sourceTree = "<group>"; };
-		FCE40D99DAD897BDA4B90A51B3FB5F28 /* UITableView+Reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Reuse.h"; path = "MineCommonUtils/UITableView+Reuse.h"; sourceTree = "<group>"; };
-		FF0E0E6909D04279F43EE46CDEC0343D /* GCD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCD.m; path = MineCommonUtils/GCD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +268,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0658325782FF36F122B175EA5FFA9092 /* ViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A7810C66AB7735EE758EB91DE1ECD /* UIScreen+OrientationSize.h */,
+				1AB520176CF831688634F09570A31F55 /* UIScreen+OrientationSize.m */,
+				D9B0D85BF55D48D5F1AF73AD7FE71FC6 /* UIView+Chain.h */,
+				108E80C07FEC35E9AB9A758E8C894FBE /* UIView+Chain.m */,
+				D8A5DD1DF744DA6828608E36FF8FADA5 /* UIView+CoverScope.h */,
+				6837E8BD1B69A8B3429B10FF218F25BA /* UIView+CoverScope.m */,
+				7DFDDB1433D0268036E0DD788FBEFECF /* UIView+Hierarchy.h */,
+				65B46A7C8810FAA62DB0007F5BAAEB11 /* UIView+Hierarchy.m */,
+				AC9CC266F709F1EE5A79DFBB944435C0 /* UIView+Style.h */,
+				4CC64AC6E404021E70E6BF225569EAF6 /* UIView+Style.m */,
+				7FD060EBE3B59FDA6370E5E4EAC7E38A /* UIView+WidgetPosition.h */,
+				C0A68BD5FE9089DF5CCFF7DB7C1E874F /* UIView+WidgetPosition.m */,
+				25604F8ED95A0409DEDD005AE3DFB188 /* UIViewController+DisplayController.h */,
+				E7C7DCDFCBFCD01E69DED5E704CF76E8 /* UIViewController+DisplayController.m */,
+			);
+			name = ViewUtils;
+			sourceTree = "<group>";
+		};
 		15FCB2A96F167E064AED0299A7ED8095 /* Pods-MineCommonUtils_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +307,24 @@
 			path = "Target Support Files/Pods-MineCommonUtils_Example";
 			sourceTree = "<group>";
 		};
+		1A61165638CC2060A180BEF2D1371D2C /* ColorValue */ = {
+			isa = PBXGroup;
+			children = (
+				D351D131EB309CC355DBFB70C295184C /* NSString+ColorValue.h */,
+				3FBA36B954B7E332871E374394DF0A6F /* NSString+ColorValue.m */,
+			);
+			name = ColorValue;
+			sourceTree = "<group>";
+		};
+		1D34472BF1C1A4FAB179299A9DAB5D6F /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D21787EACC5AC37FE52C5A304BA4F3B3 /* NSObject+SubClasses.h */,
+				2484FCF9A979C744FA26830C9E71FBCD /* NSObject+SubClasses.m */,
+			);
+			name = SubClasses;
+			sourceTree = "<group>";
+		};
 		222639BCCA62D7A430FC43C1DC9B6C96 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,13 +333,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		31BC13D6A1515FACB7AE0966A51D520D /* TypeEnsure */ = {
+		286B8F624AA053005242BE3433FC2DB0 /* IndexPath */ = {
 			isa = PBXGroup;
 			children = (
-				54E174D75D657C91B4788763BF6A64D7 /* NSObject+TypeEnsure.h */,
-				27C5B1469AAD70E17B6D2568D1E1C558 /* NSObject+TypeEnsure.m */,
+				96437D68602A2CDECE64180C66ABEB98 /* UICollectionReusableView+IndexPath.h */,
+				A5A8BF6376BD7E129682E6C05BF18F2F /* UICollectionReusableView+IndexPath.m */,
+				CB21ECB075D143D20189894B1F4D4901 /* UICollectionViewCell+IndexPath.h */,
+				7ED10863D0B264ADBB2DFADE3BC64947 /* UICollectionViewCell+IndexPath.m */,
+				F50F1D2DEE73BEA87AA0D5189DD61A0D /* UITableViewCell+IndexPath.h */,
+				E940C6225FD76B29AA0F8B9515B8463D /* UITableViewCell+IndexPath.m */,
+				0EF909DB436F97D9C661564D2C7D0300 /* UITableViewHeaderFooterView+IndexPath.h */,
+				CB5E637E9FE40AC955B0BCFEFB2DC1BE /* UITableViewHeaderFooterView+IndexPath.m */,
 			);
-			name = TypeEnsure;
+			name = IndexPath;
+			sourceTree = "<group>";
+		};
+		305447614D44E53FCED226C578E92D26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B03362C6FC01F2C1B842F2C2E15531C4 /* Info.plist */,
+				9941BDD73C17630FF7463261D8D99BCD /* MineCommonUtils.modulemap */,
+				AF05A9F0C410A2A68917873160E46FE3 /* MineCommonUtils.xcconfig */,
+				717D54F9CB7ECFCF3DA101347CD32DF0 /* MineCommonUtils-dummy.m */,
+				A41744EB0ED57A343983A75BB577BC1D /* MineCommonUtils-prefix.pch */,
+				EC43B03EFBC707E1FCDB9374D0924F11 /* MineCommonUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MineCommonUtils";
 			sourceTree = "<group>";
 		};
 		327CCDBCE820DDAE39F2A842914195E4 /* RSSwizzle */ = {
@@ -314,15 +373,6 @@
 			path = RSSwizzle;
 			sourceTree = "<group>";
 		};
-		351EE1D2419FDD897419DF22BF393C1D /* DistributeSelector */ = {
-			isa = PBXGroup;
-			children = (
-				B5C9600D9F5E37DCBA002B1E8D275FDD /* NSObject+DistributeSelector.h */,
-				4AF09927151A8D076CE80B82EF9773DF /* NSObject+DistributeSelector.m */,
-			);
-			name = DistributeSelector;
-			sourceTree = "<group>";
-		};
 		3C3DFF3FB4D8026738116A2E79F6090E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,52 +382,51 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3CB375001F938386D0067AD5214B841C /* ViewUtils */ = {
+		4CF5CF3180EE5C5BB944ED92AA7307FD /* CommonAdaptive */ = {
 			isa = PBXGroup;
 			children = (
-				FBC80C53800E7F835135E95D42D326A2 /* UIScreen+OrientationSize.h */,
-				E06B365E68059F18D95667EFFDF0E828 /* UIScreen+OrientationSize.m */,
-				183F2D1ED08601A4791CBD7038D9165D /* UIView+Chain.h */,
-				9C39E8AE4545171C9A181BE0D576CDA9 /* UIView+Chain.m */,
-				32516C1441676A1B3E4092C683D50A5F /* UIView+CoverScope.h */,
-				47AE526C16CC44E2F14EDD9E54FCE203 /* UIView+CoverScope.m */,
-				C50A86C7A2211070734E46B4C7D74829 /* UIView+Hierarchy.h */,
-				F5A9DEB9EB3BE7DE694E409512F4E486 /* UIView+Hierarchy.m */,
-				121A1E78555535F8D76BECF3D135F6C0 /* UIView+Style.h */,
-				5E6EEF75B3EDAE35A131E48142828DBE /* UIView+Style.m */,
-				C6264804FE6F3D6534FEB9EB22935E83 /* UIView+WidgetPosition.h */,
-				B7534E1D102B053199739AA110FA3110 /* UIView+WidgetPosition.m */,
-				1C91368BDAD140C2A66DE8B89FEDD4D9 /* UIViewController+DisplayController.h */,
-				C7F51D5C0CEFE0639CB0733598C4F957 /* UIViewController+DisplayController.m */,
+				5E0BDA5CAEE0C290F5C4761B64ECEC82 /* CommonAdaptive.h */,
+				F3221A437930A209751771E9C9F056B6 /* CommonAdaptive.m */,
 			);
-			name = ViewUtils;
+			name = CommonAdaptive;
 			sourceTree = "<group>";
 		};
-		416672400D048391FB6BCF2E7912712B /* JSONLog */ = {
+		58829BF6CC29E95ACBB272808DC09B4D /* TypeEnsure */ = {
 			isa = PBXGroup;
 			children = (
-				CEB10101DB789F807FEB53134CEB8900 /* JSONLog.h */,
-				A7830D5E9FBB7BD31C1CA26E3AAD782E /* JSONLog.m */,
+				7D6A30F65FCE85CF528C240AA454A439 /* NSObject+TypeEnsure.h */,
+				91CA62A78E63F99D68707E00EC98E295 /* NSObject+TypeEnsure.m */,
 			);
-			name = JSONLog;
+			name = TypeEnsure;
 			sourceTree = "<group>";
 		};
-		4DCD520B5F159AC861D997A45DDA40F4 /* SubClasses */ = {
+		58D99E28B127BBFE821738B474831B2E /* Persistent */ = {
 			isa = PBXGroup;
 			children = (
-				CFFF368C2323A84FB03D851BF9983A84 /* NSObject+SubClasses.h */,
-				19CD11A75CA293E29E2AE2D837A98093 /* NSObject+SubClasses.m */,
+				3CFD71F99C4735827CB2F6A0EB43B701 /* FastCoder.h */,
+				BC6E9E2115017DFA91BF9E9244E6D174 /* FastCoder.m */,
+				EFA0ABA8F4F1AB0A8A4A6691393FD968 /* NSObject+Persistent.h */,
+				DBD1DC521FBF006F3AE1371DF576B176 /* NSObject+Persistent.m */,
 			);
-			name = SubClasses;
+			name = Persistent;
 			sourceTree = "<group>";
 		};
-		6872C1A8682338E3C9D816BA46316568 /* Route */ = {
+		664BDB4D8208C6751BD0E422C89BBF98 /* PerformSelector */ = {
 			isa = PBXGroup;
 			children = (
-				E59B67A7BE15EDE5131F660A8AA9B1E4 /* UIResponder+ResponderChainExtraInformation.h */,
-				F26FA9F5D0B23369299251303C12A212 /* UIResponder+ResponderChainExtraInformation.m */,
+				C4FB1527C8262C81B6B57875776F9EF5 /* NSObject+PerformSelector.h */,
+				0E40534427962179EF99F3C44473506A /* NSObject+PerformSelector.m */,
 			);
-			name = Route;
+			name = PerformSelector;
+			sourceTree = "<group>";
+		};
+		69871DDAC20531A706C6A5A8A841B92E /* TimeConvert */ = {
+			isa = PBXGroup;
+			children = (
+				DAE39769A9FFD8C319860CB547EE7499 /* TimeConvert.h */,
+				023F28A87597DA051164714DD14BBEEB /* TimeConvert.m */,
+			);
+			name = TimeConvert;
 			sourceTree = "<group>";
 		};
 		6E1BC024D8520F6EE99A401F7E025988 /* Products */ = {
@@ -389,24 +438,6 @@
 				C146794744184DDE356BA75D02794B3D /* RSSwizzle.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7091AE6DD868640B95FFA69724BABD08 /* FileManager */ = {
-			isa = PBXGroup;
-			children = (
-				51B879A98B6A80EC4284315A6EAA6160 /* NSObject+FileManager.h */,
-				46762AE986DCC485C7152C05B40156D3 /* NSObject+FileManager.m */,
-			);
-			name = FileManager;
-			sourceTree = "<group>";
-		};
-		7C303D965AC6CCBF8E4641DC976A28DA /* Attribute */ = {
-			isa = PBXGroup;
-			children = (
-				51B2771C5FBC9AD1F6F1378C0D6EC8EB /* NSString+Attribute.h */,
-				007B208FADC8AD0D3D900524A580BFB2 /* NSString+Attribute.m */,
-			);
-			name = Attribute;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -430,45 +461,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8362F53BF210F95AD63C573F8E4B81D5 /* Pod */ = {
+		8999CDD9C00057128C5DD90BE307B3F1 /* DistributeSelector */ = {
 			isa = PBXGroup;
 			children = (
-				77F84390D451BD3A49F9A2EAD781EAE3 /* LICENSE */,
-				42D0E5310F89A412656EE8B2E9F8C166 /* MineCommonUtils.podspec */,
-				72C76A561961FE1B041B6C47106EE803 /* README.md */,
+				69A48D8DA681A50E6B2E15CA2100474B /* NSObject+DistributeSelector.h */,
+				221AA758758E5CACEFDDE3CAA8C045BB /* NSObject+DistributeSelector.m */,
+			);
+			name = DistributeSelector;
+			sourceTree = "<group>";
+		};
+		905FD7B88EC19EE06DA7EF4548CFFE0C /* JSONLog */ = {
+			isa = PBXGroup;
+			children = (
+				8573255BBDB6B730D929115F91B1B691 /* JSONLog.h */,
+				BD1B146DCC54C1CDE4DEBB1F0F55F3BE /* JSONLog.m */,
+			);
+			name = JSONLog;
+			sourceTree = "<group>";
+		};
+		9766800A17CA1195DD443B80E74E67F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D884964896FA795D86DC89B480AC8AC4 /* LICENSE */,
+				15A9A86EDE12AC2F34E5913C90BC9ACC /* MineCommonUtils.podspec */,
+				D26B2F41C863516B2484599D6B4AC923 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		84D71D46E1A2477DD5D42EE5CAF7817A /* PerformSelector */ = {
+		9C0C404679FE3ABFC1D5D144BBDEA2B4 /* Attribute */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBF41783F979CC06E3B431E319C393 /* NSObject+PerformSelector.h */,
-				4E869470DC9A8B8BCA9A38576A1F577E /* NSObject+PerformSelector.m */,
+				19F0824D7BF408F97DECA0A758AD5C19 /* NSString+Attribute.h */,
+				F6D11EFA5C19C33716C6450B6B926525 /* NSString+Attribute.m */,
 			);
-			name = PerformSelector;
-			sourceTree = "<group>";
-		};
-		98A542ED9FE0A6CB772DAE0F211F6DB5 /* FunctionOperate */ = {
-			isa = PBXGroup;
-			children = (
-				ABAD3A4EFFD9DE7278D81AD8DAEFC235 /* NSArray+FunctionOperate.h */,
-				91540DE762F7D19CA4C388955825447E /* NSArray+FunctionOperate.m */,
-				80AEA520682A5E6FA24180E755F1B63D /* NSDictionary+FunctionOperate.h */,
-				3E43F8FA5BA2A5AF93B14522BE2A6E2C /* NSDictionary+FunctionOperate.m */,
-				05C894B64417C0836A20987E14214E03 /* NSString+FunctionOperate.h */,
-				6B45AFBBA1FFDE9C3275DEC0BE02702A /* NSString+FunctionOperate.m */,
-			);
-			name = FunctionOperate;
-			sourceTree = "<group>";
-		};
-		A7952F5490F5C0D0FA3D6283E60510DE /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				4C54416902D221007BCB76C0F8CA5F19 /* GCD.h */,
-				FF0E0E6909D04279F43EE46CDEC0343D /* GCD.m */,
-			);
-			name = GCD;
+			name = Attribute;
 			sourceTree = "<group>";
 		};
 		A83C0B41D79611B0FEF25F9B7A9AD170 /* Targets Support Files */ = {
@@ -480,15 +507,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B551C5B928DC0326E952E8BEFCE263FA /* Persistent */ = {
+		B0E4D53C7A395D9C35EFFDFE6AF09795 /* MineCommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				54DD68C021C8FCC85BB72B762181011D /* FastCoder.h */,
-				26153A38152B25FB5C96DC9AC425F0F5 /* FastCoder.m */,
-				1663FF8D3C39282ED33A72F00AC1A6E4 /* NSObject+Persistent.h */,
-				B5568F4854FEDA7870B91B5E7AD3ACE2 /* NSObject+Persistent.m */,
+				C70D2B66CF734FD592CD955C7C114B2C /* MineCommonUtils.h */,
+				9C0C404679FE3ABFC1D5D144BBDEA2B4 /* Attribute */,
+				1A61165638CC2060A180BEF2D1371D2C /* ColorValue */,
+				4CF5CF3180EE5C5BB944ED92AA7307FD /* CommonAdaptive */,
+				8999CDD9C00057128C5DD90BE307B3F1 /* DistributeSelector */,
+				FCAAA791A36F755EB41C3F25AD6AFD34 /* DynamicProperty */,
+				C1469DFBA9A4080E49FE8CAB9C8EA559 /* FileManager */,
+				EF1EFF6FD92750C048346299DE477981 /* FunctionOperate */,
+				286B8F624AA053005242BE3433FC2DB0 /* IndexPath */,
+				905FD7B88EC19EE06DA7EF4548CFFE0C /* JSONLog */,
+				664BDB4D8208C6751BD0E422C89BBF98 /* PerformSelector */,
+				58D99E28B127BBFE821738B474831B2E /* Persistent */,
+				9766800A17CA1195DD443B80E74E67F0 /* Pod */,
+				C04437B8F5EA09C60EDDC953F82E9C03 /* Reuse */,
+				FD6618E3CEA477749FF78442DEB08AEA /* Route */,
+				D32CB3095DD10B626D2A149CA52DF411 /* Scheduler */,
+				1D34472BF1C1A4FAB179299A9DAB5D6F /* SubClasses */,
+				305447614D44E53FCED226C578E92D26 /* Support Files */,
+				69871DDAC20531A706C6A5A8A841B92E /* TimeConvert */,
+				58829BF6CC29E95ACBB272808DC09B4D /* TypeEnsure */,
+				0658325782FF36F122B175EA5FFA9092 /* ViewUtils */,
 			);
-			name = Persistent;
+			name = MineCommonUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C04437B8F5EA09C60EDDC953F82E9C03 /* Reuse */ = {
+			isa = PBXGroup;
+			children = (
+				4B6461D1D7022807E28F56E4D58FF67A /* UICollectionView+Reuse.h */,
+				ABCBDBE2FFA0436762F0432BA6AEFB82 /* UICollectionView+Reuse.m */,
+				59FADF4656F6F2742756CDD4FAB59819 /* UITableView+Reuse.h */,
+				A2EAF89C3DAF7E9F9E8681C67AC18D4A /* UITableView+Reuse.m */,
+			);
+			name = Reuse;
+			sourceTree = "<group>";
+		};
+		C1469DFBA9A4080E49FE8CAB9C8EA559 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				830BAADBF4FB3B41A743C6BCC0DE41E2 /* NSObject+FileManager.h */,
+				A90D0AF02A914060C95DD3BF69F2757A /* NSObject+FileManager.m */,
+			);
+			name = FileManager;
 			sourceTree = "<group>";
 		};
 		C1C2DAE233FA9736FD742CAAABBF466E /* Support Files */ = {
@@ -505,117 +570,34 @@
 			path = "../Target Support Files/RSSwizzle";
 			sourceTree = "<group>";
 		};
-		E1E11EE36CE379749E4E411E37E84A42 /* MineCommonUtils */ = {
+		D32CB3095DD10B626D2A149CA52DF411 /* Scheduler */ = {
 			isa = PBXGroup;
 			children = (
-				6375EB5102800597B472359F6CFE2CBE /* MineCommonUtils.h */,
-				7C303D965AC6CCBF8E4641DC976A28DA /* Attribute */,
-				ED50B0321188BB85F498A70919F564AD /* ColorValue */,
-				EA7563D5FF191AC96D913B74A67DBF93 /* CommonAdaptive */,
-				351EE1D2419FDD897419DF22BF393C1D /* DistributeSelector */,
-				F531CD92EAA60CCC939EE656F9F0FF6D /* DynamicProperty */,
-				7091AE6DD868640B95FFA69724BABD08 /* FileManager */,
-				98A542ED9FE0A6CB772DAE0F211F6DB5 /* FunctionOperate */,
-				A7952F5490F5C0D0FA3D6283E60510DE /* GCD */,
-				E5ADF25793B94A2B4A2BBF6C7EFA5C15 /* IndexPath */,
-				416672400D048391FB6BCF2E7912712B /* JSONLog */,
-				84D71D46E1A2477DD5D42EE5CAF7817A /* PerformSelector */,
-				B551C5B928DC0326E952E8BEFCE263FA /* Persistent */,
-				8362F53BF210F95AD63C573F8E4B81D5 /* Pod */,
-				E741C7543BC11F1333F31171DF30D63B /* Reuse */,
-				6872C1A8682338E3C9D816BA46316568 /* Route */,
-				4DCD520B5F159AC861D997A45DDA40F4 /* SubClasses */,
-				F8F15A8F7861B94E333D0272770EF16C /* Support Files */,
-				F3F0CD4C580DA132C8F70459A7630C9D /* TimeConvert */,
-				31BC13D6A1515FACB7AE0966A51D520D /* TypeEnsure */,
-				3CB375001F938386D0067AD5214B841C /* ViewUtils */,
+				0483B26E75E87E2B2E721BA9C8A169F3 /* Scheduler.h */,
+				CEEBE937D8CBC197E7C52E4E45A25DD7 /* Scheduler.m */,
 			);
-			name = MineCommonUtils;
-			path = ../..;
+			name = Scheduler;
 			sourceTree = "<group>";
 		};
-		E5ADF25793B94A2B4A2BBF6C7EFA5C15 /* IndexPath */ = {
+		EF1EFF6FD92750C048346299DE477981 /* FunctionOperate */ = {
 			isa = PBXGroup;
 			children = (
-				E417D33AC1A7EB672DF7E9B7FB9B0AA3 /* UICollectionReusableView+IndexPath.h */,
-				57FB2A282E27F0EF9F792D0110A67C86 /* UICollectionReusableView+IndexPath.m */,
-				32DFAAF9985560A28205B18444FA559B /* UICollectionViewCell+IndexPath.h */,
-				DC28E2F14513BC44309985185A0A7A6B /* UICollectionViewCell+IndexPath.m */,
-				812B6247B6E154A05B4AEE1BA8C8603E /* UITableViewCell+IndexPath.h */,
-				7BF41AE747A22F3F5E18B2F5093FD2A7 /* UITableViewCell+IndexPath.m */,
-				1D73846941B41218DB16D0ACC643F667 /* UITableViewHeaderFooterView+IndexPath.h */,
-				7B25567FCBFC50A02C875F3A03E2BFB3 /* UITableViewHeaderFooterView+IndexPath.m */,
+				E7CF154C91A5808C2BBEDA63C9CC1A0D /* NSArray+FunctionOperate.h */,
+				ADA3739EEA9065DCD37D7AAD665AB883 /* NSArray+FunctionOperate.m */,
+				220B7CAE9C9CB242F92C83B25BE96A66 /* NSDictionary+FunctionOperate.h */,
+				9B06C2240FAF339F327E67190AEF6657 /* NSDictionary+FunctionOperate.m */,
+				A5A99FCE1C9025C40EB38B2E064A326B /* NSString+FunctionOperate.h */,
+				34BBB85372586590E316AF97F1868C86 /* NSString+FunctionOperate.m */,
 			);
-			name = IndexPath;
-			sourceTree = "<group>";
-		};
-		E741C7543BC11F1333F31171DF30D63B /* Reuse */ = {
-			isa = PBXGroup;
-			children = (
-				C02474CEAFBB7E093D353C0E1C4CB5D8 /* UICollectionView+Reuse.h */,
-				7E5C61D601C3B35DEBE85F15D7CD65FF /* UICollectionView+Reuse.m */,
-				FCE40D99DAD897BDA4B90A51B3FB5F28 /* UITableView+Reuse.h */,
-				8447AFAB06A40C2E1D6633EB609793A9 /* UITableView+Reuse.m */,
-			);
-			name = Reuse;
-			sourceTree = "<group>";
-		};
-		EA7563D5FF191AC96D913B74A67DBF93 /* CommonAdaptive */ = {
-			isa = PBXGroup;
-			children = (
-				D150818A27BF6C9EF86090F817845A59 /* CommonAdaptive.h */,
-				6A5D32D2CDD51A3437759F59C723EFEC /* CommonAdaptive.m */,
-			);
-			name = CommonAdaptive;
-			sourceTree = "<group>";
-		};
-		ED50B0321188BB85F498A70919F564AD /* ColorValue */ = {
-			isa = PBXGroup;
-			children = (
-				62C9070B25FB8DD77F3B551BE6EFBDC7 /* NSString+ColorValue.h */,
-				0BA71522BD5DF4C019ADA6D11AFDC5D1 /* NSString+ColorValue.m */,
-			);
-			name = ColorValue;
+			name = FunctionOperate;
 			sourceTree = "<group>";
 		};
 		F307C098771397FEEBD9C6864424BEC7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1E11EE36CE379749E4E411E37E84A42 /* MineCommonUtils */,
+				B0E4D53C7A395D9C35EFFDFE6AF09795 /* MineCommonUtils */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F3F0CD4C580DA132C8F70459A7630C9D /* TimeConvert */ = {
-			isa = PBXGroup;
-			children = (
-				E07EBE52556AA78B4E750A444A23B0D9 /* TimeConvert.h */,
-				733DD68CA7298A424B091770E186A6CC /* TimeConvert.m */,
-			);
-			name = TimeConvert;
-			sourceTree = "<group>";
-		};
-		F531CD92EAA60CCC939EE656F9F0FF6D /* DynamicProperty */ = {
-			isa = PBXGroup;
-			children = (
-				13310340DC33B8482A5C85E74440BB02 /* NSObject+DynamicProperty.h */,
-				83F664654CAA7145CC0B293AD7254E34 /* NSObject+DynamicProperty.m */,
-			);
-			name = DynamicProperty;
-			sourceTree = "<group>";
-		};
-		F8F15A8F7861B94E333D0272770EF16C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				59B693E87931F7756433D819DE1D06E0 /* Info.plist */,
-				98224B7FA71D1E9F9F56ED9338978D0F /* MineCommonUtils.modulemap */,
-				F281FC67790965AF75734A61CC2F4061 /* MineCommonUtils.xcconfig */,
-				0CA7B023B73C4697F1C392801543AF59 /* MineCommonUtils-dummy.m */,
-				0E398CD7EC5AE3D348CF330D5EAC509E /* MineCommonUtils-prefix.pch */,
-				F55BBA5197869A6D80EEC95219ADE053 /* MineCommonUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MineCommonUtils";
 			sourceTree = "<group>";
 		};
 		FA3E594812BF47E0F404EE6001A8457D /* Pods-MineCommonUtils_Tests */ = {
@@ -634,6 +616,24 @@
 			);
 			name = "Pods-MineCommonUtils_Tests";
 			path = "Target Support Files/Pods-MineCommonUtils_Tests";
+			sourceTree = "<group>";
+		};
+		FCAAA791A36F755EB41C3F25AD6AFD34 /* DynamicProperty */ = {
+			isa = PBXGroup;
+			children = (
+				E979ABF555247F574BA3FD458B56E8BE /* NSObject+DynamicProperty.h */,
+				63DE781CF6497D37082CF20B811FB003 /* NSObject+DynamicProperty.m */,
+			);
+			name = DynamicProperty;
+			sourceTree = "<group>";
+		};
+		FD6618E3CEA477749FF78442DEB08AEA /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				96517989199FBEB647559E12D21D4E0D /* UIResponder+ResponderChainExtraInformation.h */,
+				3F8ACEAE4059D73F29D7B429F91DADA3 /* UIResponder+ResponderChainExtraInformation.m */,
+			);
+			name = Route;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,43 +655,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DBEBFB16A3B6C43D083870261A59D94 /* Headers */ = {
+		7E8B711BC2314A532534E3ECA1061840 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F638E3FE3A9EE709103A26566996E89C /* CommonAdaptive.h in Headers */,
-				B1592F016D885FE8160083941730FB15 /* FastCoder.h in Headers */,
-				91EDD1280EC3F01C60CF5FC9CECC49C1 /* GCD.h in Headers */,
-				4F2136D07326959EC2E68EDD816CC32A /* JSONLog.h in Headers */,
-				814D17E39E83A8D08F8E91A5C146A3D0 /* MineCommonUtils-umbrella.h in Headers */,
-				83CBB5AE7F527431B6FBCBD9F35F40A0 /* MineCommonUtils.h in Headers */,
-				40970DFFB263999047FD365BDD68A4E8 /* NSArray+FunctionOperate.h in Headers */,
-				35423ABCF0C6EB4DF2160F46046334E3 /* NSDictionary+FunctionOperate.h in Headers */,
-				F1E2FE8FF6A329DFF77CC26D1DFA838A /* NSObject+DistributeSelector.h in Headers */,
-				EF1BE0855F59DCB81FE16EF00EF8346B /* NSObject+DynamicProperty.h in Headers */,
-				5EFB572AF0D3CC3DE0012CD3753A8DBD /* NSObject+FileManager.h in Headers */,
-				C13B1E68AE9620FB47155BA024FD9A9F /* NSObject+PerformSelector.h in Headers */,
-				022B9CEFCAC6AB872D83F806FABC9C09 /* NSObject+Persistent.h in Headers */,
-				3EF024D93A9AF61C59447A1845A3EB5D /* NSObject+SubClasses.h in Headers */,
-				72FA8A8445B6ECA7CCE62D3886E393BE /* NSObject+TypeEnsure.h in Headers */,
-				A45E0D29C9DE5C4BA7EE936A0FBE03CD /* NSString+Attribute.h in Headers */,
-				B5D5A0D4AC4D0BACF9BCBCEC51CB4115 /* NSString+ColorValue.h in Headers */,
-				B77FF6F9107DE613BF0003243840F80A /* NSString+FunctionOperate.h in Headers */,
-				478B603CAD54D395C4553DB23B9A4F3E /* TimeConvert.h in Headers */,
-				9DA3CD61E42588C8DD04AFCF60630C51 /* UICollectionReusableView+IndexPath.h in Headers */,
-				A31B72FA1D274D612B21BEC1BDED9208 /* UICollectionView+Reuse.h in Headers */,
-				707C11D4ED1B97C33754B122C2763751 /* UICollectionViewCell+IndexPath.h in Headers */,
-				1C49C0139878D82C199689401CC927EB /* UIResponder+ResponderChainExtraInformation.h in Headers */,
-				ACA2389BC77D32085AF87A23F9B23951 /* UIScreen+OrientationSize.h in Headers */,
-				571020BC3CD140A1CDFB22B46013F4C3 /* UITableView+Reuse.h in Headers */,
-				F1244100A0497697D4714347DA281EA1 /* UITableViewCell+IndexPath.h in Headers */,
-				BAAE30C078F5629C2D7BDF5A9BAB29DE /* UITableViewHeaderFooterView+IndexPath.h in Headers */,
-				F0E7346BD4A69C8A958FA15A7AB70F5F /* UIView+Chain.h in Headers */,
-				9B280219769FA1C1184EE42C2EECDDDB /* UIView+CoverScope.h in Headers */,
-				BFF68952E4FC01D81A9967B105932FDB /* UIView+Hierarchy.h in Headers */,
-				BAFB0268863E7B626FBC214CB20C0D0E /* UIView+Style.h in Headers */,
-				7698DDFED5B42A2DD2DEAD33550CE476 /* UIView+WidgetPosition.h in Headers */,
-				D85967DE9EB94341D10921FC413905C7 /* UIViewController+DisplayController.h in Headers */,
+				C0B2246B237A89862161C74FA98690A9 /* CommonAdaptive.h in Headers */,
+				C8E46F775553546CDF3E4C968BD4DA9A /* FastCoder.h in Headers */,
+				9F08EDA7D26C597CBAA393AE49422409 /* JSONLog.h in Headers */,
+				0C68254B8E5CAE67CB2E5B21AEC7FCCD /* MineCommonUtils-umbrella.h in Headers */,
+				6D236EC1A5A17167C3F1DB06CDA147C2 /* MineCommonUtils.h in Headers */,
+				5E3EECEF569423EF6D10B23B1A24F343 /* NSArray+FunctionOperate.h in Headers */,
+				7A99AE48E356F5FFFEDF7E1449EC28EF /* NSDictionary+FunctionOperate.h in Headers */,
+				20917E0FF6411E3F3789637B8A766BE3 /* NSObject+DistributeSelector.h in Headers */,
+				ABA3C728EF4C25EEAC1DB5AA51EC5188 /* NSObject+DynamicProperty.h in Headers */,
+				BD172B02D15FA7C747357631193B59E5 /* NSObject+FileManager.h in Headers */,
+				F407D740F73CBF09DAFA7101B29AD81D /* NSObject+PerformSelector.h in Headers */,
+				D85F350BE42372144219DE058B535D99 /* NSObject+Persistent.h in Headers */,
+				A57ED42672F010628240072B39563A77 /* NSObject+SubClasses.h in Headers */,
+				BF653877802E6D7AD0DD3D2D73410ACC /* NSObject+TypeEnsure.h in Headers */,
+				E30AD238E31C6A3D2B67FFAB173CF5D1 /* NSString+Attribute.h in Headers */,
+				FBCB69F140AC6160CC63BEF0B0A51D1F /* NSString+ColorValue.h in Headers */,
+				9194DA50652CE21CB13DD3DABD4FA4BB /* NSString+FunctionOperate.h in Headers */,
+				8CA6418551DEAF6AFBC900D04AF66171 /* Scheduler.h in Headers */,
+				D0AB5286C0F61B6DB8EFE04C0BF82830 /* TimeConvert.h in Headers */,
+				17FCB93A5732CF76F825E5B86FD8FB7E /* UICollectionReusableView+IndexPath.h in Headers */,
+				2394E2B0FB159D82F7B80EEE3D273F74 /* UICollectionView+Reuse.h in Headers */,
+				FBF19F7B61951CF4871A160586DB1D8E /* UICollectionViewCell+IndexPath.h in Headers */,
+				420383AFEAE4D428E7E0344B14068597 /* UIResponder+ResponderChainExtraInformation.h in Headers */,
+				1995767BE52F6BB77C733CDEEF5F94B4 /* UIScreen+OrientationSize.h in Headers */,
+				F6FB3403BE9B69675580D0DA0C569B7E /* UITableView+Reuse.h in Headers */,
+				8C09B5CBEB63AB9C78EC18822B5390BE /* UITableViewCell+IndexPath.h in Headers */,
+				01E78413B12E8AE537A6D4611E4B6E9F /* UITableViewHeaderFooterView+IndexPath.h in Headers */,
+				376A35E0923BE10F164E671A507812A1 /* UIView+Chain.h in Headers */,
+				14E64F52AF9C210EF2D493F5F7DD3E72 /* UIView+CoverScope.h in Headers */,
+				A0B6D3DE9A2F0325F05983CF9F024ED5 /* UIView+Hierarchy.h in Headers */,
+				110E568FF12592193CCF7FA2E4117861 /* UIView+Style.h in Headers */,
+				47334BC7C9453CE9F61708F68EE78432 /* UIView+WidgetPosition.h in Headers */,
+				DD575839E5766B277C82ED60B40E1C17 /* UIViewController+DisplayController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,8 +750,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 286009326C839242278F5207807B5590 /* Build configuration list for PBXNativeTarget "MineCommonUtils" */;
 			buildPhases = (
-				6DBEBFB16A3B6C43D083870261A59D94 /* Headers */,
-				2A5E2FDD529E92106D5E8EEA3BF709CA /* Sources */,
+				7E8B711BC2314A532534E3ECA1061840 /* Headers */,
+				8E3D744FC48187354F9131A022C3D35B /* Sources */,
 				DD4F9D648D4C7B73E0BAC172A62155B8 /* Frameworks */,
 				460A66C800114BF3F67DF889B65FEC86 /* Resources */,
 			);
@@ -844,45 +844,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A5E2FDD529E92106D5E8EEA3BF709CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				927A611F776A4F6A3B5684B79E26B40F /* CommonAdaptive.m in Sources */,
-				8C0597B502CFE1A935EF0DC5EEDF27FC /* FastCoder.m in Sources */,
-				0CD200424F17379C6C5E3FE895264CFC /* GCD.m in Sources */,
-				D0CC3ED140BAA778631A88C0E8526BA2 /* JSONLog.m in Sources */,
-				DF29AE6D0C32B2157915CB61DBA894E1 /* MineCommonUtils-dummy.m in Sources */,
-				E0F3ADC4CC8F481CDFD92F75B43F4729 /* NSArray+FunctionOperate.m in Sources */,
-				8912720D07327C64872729D49D9F3D7B /* NSDictionary+FunctionOperate.m in Sources */,
-				85DF9DB4A735465FAE27F2B058099304 /* NSObject+DistributeSelector.m in Sources */,
-				CCA6179C9381D85E16601AED10F80A4E /* NSObject+DynamicProperty.m in Sources */,
-				76B9746E8CF74786C9C38CEC20EF1FA8 /* NSObject+FileManager.m in Sources */,
-				6A5005D8F7291F78775FB14574AC83A2 /* NSObject+PerformSelector.m in Sources */,
-				4DDD066F8D12524ACCA4DE9832506EFC /* NSObject+Persistent.m in Sources */,
-				FB79A1E840CE3690A4E00C2FBBE1D870 /* NSObject+SubClasses.m in Sources */,
-				958211DE9D6E0D445B5B1B9C258FC4B3 /* NSObject+TypeEnsure.m in Sources */,
-				C30E52F1522A05E8E32445E7D9D856D7 /* NSString+Attribute.m in Sources */,
-				34B2AEE7ED0E9CD211291F4A6FC1D6BC /* NSString+ColorValue.m in Sources */,
-				EACF5831F735506FE3F7A33DF7DB84EB /* NSString+FunctionOperate.m in Sources */,
-				785EF2B552857A131A0FC1F4707FE031 /* TimeConvert.m in Sources */,
-				11638765F29DC6F8879F10240636B7DA /* UICollectionReusableView+IndexPath.m in Sources */,
-				91FA0EBB9767CA1965A016538DB61AAA /* UICollectionView+Reuse.m in Sources */,
-				DF07E962F6B610FB93D126177A238674 /* UICollectionViewCell+IndexPath.m in Sources */,
-				090754D87A821BB694F69746292FED4C /* UIResponder+ResponderChainExtraInformation.m in Sources */,
-				C067617732577A08F1A8B5BE176F8FB3 /* UIScreen+OrientationSize.m in Sources */,
-				8E0447586EA7A2D59C0FB8D1EF7095A5 /* UITableView+Reuse.m in Sources */,
-				9C455AD04F70FEE4D220A2D9596A2B24 /* UITableViewCell+IndexPath.m in Sources */,
-				3A5B8AEF5689F9506E1E9792788AFBE9 /* UITableViewHeaderFooterView+IndexPath.m in Sources */,
-				7F914DDFB1D029F40A79D1D8885C5878 /* UIView+Chain.m in Sources */,
-				4B1077ADB2CEB2C43718EF7C89E34CD6 /* UIView+CoverScope.m in Sources */,
-				CC7761F1247C01CC24545D28C89D8D49 /* UIView+Hierarchy.m in Sources */,
-				66B4399172A47BDCC3D547972640681B /* UIView+Style.m in Sources */,
-				532EF42C884CD033FF8DFEEB170FCE7E /* UIView+WidgetPosition.m in Sources */,
-				B5805DCE34FE94632F26C34C926C1AD5 /* UIViewController+DisplayController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B5D5214377AF605B75406582846745F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -896,6 +857,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EF29BECFCFD49383818884498C3601 /* Pods-MineCommonUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D744FC48187354F9131A022C3D35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCED93F7D1729987ED064D6E0A28742 /* CommonAdaptive.m in Sources */,
+				332C54335E34C1B897624113B8EAC63B /* FastCoder.m in Sources */,
+				0A153FEEA432943968C2DBAA901060FB /* JSONLog.m in Sources */,
+				F4E6FE192F117D10F4DF33CF448F6EF4 /* MineCommonUtils-dummy.m in Sources */,
+				7BDB59B9C0D46293F4E348FAC24A534A /* NSArray+FunctionOperate.m in Sources */,
+				563D9D765380DBB8EB98F4EE282652E8 /* NSDictionary+FunctionOperate.m in Sources */,
+				A61557A77B7E9B522DF0836D061F44A7 /* NSObject+DistributeSelector.m in Sources */,
+				514D699FAC1955250C084B202E243764 /* NSObject+DynamicProperty.m in Sources */,
+				AC159FB6A8B05F29916ACB86AFA1A5D4 /* NSObject+FileManager.m in Sources */,
+				21AE5EEF8A819A2C181616FD8A7C4F73 /* NSObject+PerformSelector.m in Sources */,
+				A565ECD6845E22DDED595FFA648591FB /* NSObject+Persistent.m in Sources */,
+				3AED5814F75AFD75645CAA087909646F /* NSObject+SubClasses.m in Sources */,
+				6CB8CBA3777558C793E9B9B8699DD890 /* NSObject+TypeEnsure.m in Sources */,
+				DA95570848D54F5AC2834D39902A5B39 /* NSString+Attribute.m in Sources */,
+				F59669D538FB2E4FD54C763382A5E6B5 /* NSString+ColorValue.m in Sources */,
+				04161DFD9E2D00DBD0004D6F58B2CAEF /* NSString+FunctionOperate.m in Sources */,
+				EF4005856970AEC97A11AB08DD9B2FAB /* Scheduler.m in Sources */,
+				4B6D3AF12574B12EDC7B631A1464BF3A /* TimeConvert.m in Sources */,
+				E77BC4BC9762E5CE6C048F4C45FA1C0E /* UICollectionReusableView+IndexPath.m in Sources */,
+				DFAC424D9F21253BA39C1CA226424ACF /* UICollectionView+Reuse.m in Sources */,
+				3C26357ED492D99212012680F931D507 /* UICollectionViewCell+IndexPath.m in Sources */,
+				8A12B2B6DE80BC673DF30EDB6D48A92E /* UIResponder+ResponderChainExtraInformation.m in Sources */,
+				0C17DEF2B0F65EBC81DBE0754B431556 /* UIScreen+OrientationSize.m in Sources */,
+				65A348AAABE2D4B186B23E6758C1C9C9 /* UITableView+Reuse.m in Sources */,
+				D8F008881EA3FDF32CC9F5DD70E2FE18 /* UITableViewCell+IndexPath.m in Sources */,
+				E2EAF0FF6F6B0474792A8F80EC81E690 /* UITableViewHeaderFooterView+IndexPath.m in Sources */,
+				56BD6C4322EB29C19F7613605BE1E13C /* UIView+Chain.m in Sources */,
+				537CAF07AA9A6BB6E88AC06069E75AD0 /* UIView+CoverScope.m in Sources */,
+				A082AA9DA56D42241E7DFD2FB9291C30 /* UIView+Hierarchy.m in Sources */,
+				DDFE525C94079EB13A9EDDCCD3961B7F /* UIView+Style.m in Sources */,
+				497F1E309A3F936AA1CB1B7227E5B718 /* UIView+WidgetPosition.m in Sources */,
+				DF94B50ADC2A06A1579BDF9C9788997B /* UIViewController+DisplayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,7 +940,7 @@
 /* Begin XCBuildConfiguration section */
 		173C4C37FCEB1D8A90266EE05D2CDBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F281FC67790965AF75734A61CC2F4061 /* MineCommonUtils.xcconfig */;
+			baseConfigurationReference = AF05A9F0C410A2A68917873160E46FE3 /* MineCommonUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1190,7 +1190,7 @@
 		};
 		DD24EDC3573272E39B0F85CFDAE754D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F281FC67790965AF75734A61CC2F4061 /* MineCommonUtils.xcconfig */;
+			baseConfigurationReference = AF05A9F0C410A2A68917873160E46FE3 /* MineCommonUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

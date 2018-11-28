@@ -71,3 +71,5 @@
 #import "UITableViewHeaderFooterView+IndexPath.h"
 #import "UICollectionViewCell+IndexPath.h"
 #import "UICollectionReusableView+IndexPath.h"
+
+#import "Scheduler.h"
