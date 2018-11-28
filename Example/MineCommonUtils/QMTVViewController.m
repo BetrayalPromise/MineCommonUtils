@@ -25,12 +25,12 @@
     NSArray * b =  [NSMutableArray findSubClass];
     NSLog(@"%@", b);
     
-    UIView * v = [[[UIView structureView] objectThen:^(UIView *_Nonnull source) {
+    UIView * v = [[[[UIView alloc] initWithFrame:CGRectZero] objectThen:^(UIView *_Nonnull source) {
         source.backgroundColor = [UIColor redColor];
         source.frame = CGRectMake(100, 100, 100, 100);
     }] attachTo:self.view];
     
-    UIButton * button = [[[UIButton structureView] objectThen:^(UIButton *_Nonnull source) {
+    UIButton * button = [[[[UIButton alloc] initWithFrame:CGRectZero] objectThen:^(UIButton *_Nonnull source) {
         source.backgroundColor = [UIColor redColor];
         source.frame = CGRectMake(-50,-50, 50, 50);
         [source addTarget:self action:@selector(aaa) forControlEvents:(UIControlEventTouchUpInside)];
