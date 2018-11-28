@@ -126,6 +126,4 @@ static inline void emptyMethod(id self, SEL _cmd) {
 
 @end
 
-
-
 #endif

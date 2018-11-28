@@ -23,39 +23,9 @@ MineCommonUtils for me
   s.ios.frameworks = 'UIKit'
   s.platform     = :ios, "8.0"
 
-  s.subspec 'ClosureManage' do |ss|
-    ss.source_files = 'MineCommonUtils/NSObject+ClosureManage.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/NSObject+ClosureManage.h'
-  end
-
   s.subspec 'Reuse' do |ss|
     ss.source_files = 'MineCommonUtils/UI{Collection,Table}View+Reuse.{h,m}'
     ss.public_header_files = 'MineCommonUtils/UI{Collection,Table}View+Reuse.h'
-  end
-
-  s.subspec 'OrientationSize' do |ss|
-    ss.source_files = 'MineCommonUtils/UIScreen+OrientationSize.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIScreen+OrientationSize.h'
-  end
-
-  s.subspec 'StructureView' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+StructureView.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+StructureView.h'
-  end
-
-  s.subspec 'Hierarchy' do |ss|
-      ss.source_files = 'MineCommonUtils/UIView+Hierarchy.{h,m}', 'MineCommonUtils/UIViewController+DisplayController.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+Hierarchy.h', 'MineCommonUtils/UIViewController+DisplayController.h'
-  end
-
-  s.subspec 'Style' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+Style.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+Style.h'
-  end
-
-  s.subspec 'WidgetPosition' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+WidgetPosition.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+WidgetPosition.h'
   end
 
   s.subspec 'CommonAdaptive' do |ss|
@@ -110,14 +80,9 @@ MineCommonUtils for me
     ss.public_header_files = 'MineCommonUtils/NSObject+DynamicProperty.h'
   end
 
-  s.subspec 'CoverScope' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+CoverScope.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+CoverScope.h'
-  end
-
-  s.subspec 'Chain' do |ss|
-    ss.source_files = 'MineCommonUtils/UIView+Chain.{h,m}'
-    ss.public_header_files = 'MineCommonUtils/UIView+Chain.h'
+  s.subspec 'ViewUtils' do |ss|
+    ss.source_files = 'MineCommonUtils/UIView+CoverScope.{h,m}', 'MineCommonUtils/UIView+Chain.{h,m}', 'MineCommonUtils/UIView+WidgetPosition.{h,m}', 'MineCommonUtils/UIView+Style.{h,m}', 'MineCommonUtils/UIView+Hierarchy.{h,m}', 'MineCommonUtils/UIViewController+DisplayController.{h,m}', 'MineCommonUtils/UIScreen+OrientationSize.{h,m}'
+    ss.public_header_files = 'MineCommonUtils/UIView+CoverScope.h','MineCommonUtils/UIView+Chain.h', 'MineCommonUtils/UIView+WidgetPosition.h', 'MineCommonUtils/UIView+Style.h', 'MineCommonUtils/UIView+Hierarchy.h', 'MineCommonUtils/UIViewController+DisplayController.h', 'MineCommonUtils/UIScreen+OrientationSize.h'
   end
 
   s.subspec 'PerformSelector' do |ss|
@@ -140,11 +105,6 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/*+IndexPath.h'
   end
 
-  s.subspec 'HandleEventBlock' do |ss|
-      ss.source_files = 'MineCommonUtils/UIButton+HandleEventBlock.{h,m}'
-      ss.public_header_files = 'MineCommonUtils/UIButton+HandleEventBlock.h'
-  end
-
   s.subspec 'GCD' do |ss|
       ss.source_files = 'MineCommonUtils/GCD.{h,m}'
       ss.public_header_files = 'MineCommonUtils/GCD.h'
@@ -155,5 +115,6 @@ MineCommonUtils for me
       ss.public_header_files = 'MineCommonUtils/JSONLog.h'
   end
   
+  s.dependency 'RSSwizzle'
   
 end

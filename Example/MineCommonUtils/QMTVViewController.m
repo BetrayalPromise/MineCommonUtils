@@ -8,6 +8,7 @@
 
 #import "QMTVViewController.h"
 #import <MineCommonUtils/MineCommonUtils.h>
+#import <RSSwizzle/RSSwizzle.h>
 
 @interface QMTVViewController ()
 

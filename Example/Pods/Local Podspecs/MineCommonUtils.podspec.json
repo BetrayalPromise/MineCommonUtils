@@ -1,6 +1,6 @@
 {
   "name": "MineCommonUtils",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "summary": "MineCommonUtils.",
   "description": "MineCommonUtils for me",
   "homepage": "https://github.com/BetrayalPromise",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BetrayalPromise/MineCommonUtils.git",
-    "tag": "1.1.3"
+    "tag": "1.1.4"
   },
   "source_files": "MineCommonUtils/MineCommonUtils.h",
   "public_header_files": "MineCommonUtils/MineCommonUtils.h",
@@ -23,47 +23,16 @@
   "platforms": {
     "ios": "8.0"
   },
+  "dependencies": {
+    "RSSwizzle": [
+
+    ]
+  },
   "subspecs": [
-    {
-      "name": "ClosureManage",
-      "source_files": "MineCommonUtils/NSObject+ClosureManage.{h,m}",
-      "public_header_files": "MineCommonUtils/NSObject+ClosureManage.h"
-    },
     {
       "name": "Reuse",
       "source_files": "MineCommonUtils/UI{Collection,Table}View+Reuse.{h,m}",
       "public_header_files": "MineCommonUtils/UI{Collection,Table}View+Reuse.h"
-    },
-    {
-      "name": "OrientationSize",
-      "source_files": "MineCommonUtils/UIScreen+OrientationSize.{h,m}",
-      "public_header_files": "MineCommonUtils/UIScreen+OrientationSize.h"
-    },
-    {
-      "name": "StructureView",
-      "source_files": "MineCommonUtils/UIView+StructureView.{h,m}",
-      "public_header_files": "MineCommonUtils/UIView+StructureView.h"
-    },
-    {
-      "name": "Hierarchy",
-      "source_files": [
-        "MineCommonUtils/UIView+Hierarchy.{h,m}",
-        "MineCommonUtils/UIViewController+DisplayController.{h,m}"
-      ],
-      "public_header_files": [
-        "MineCommonUtils/UIView+Hierarchy.h",
-        "MineCommonUtils/UIViewController+DisplayController.h"
-      ]
-    },
-    {
-      "name": "Style",
-      "source_files": "MineCommonUtils/UIView+Style.{h,m}",
-      "public_header_files": "MineCommonUtils/UIView+Style.h"
-    },
-    {
-      "name": "WidgetPosition",
-      "source_files": "MineCommonUtils/UIView+WidgetPosition.{h,m}",
-      "public_header_files": "MineCommonUtils/UIView+WidgetPosition.h"
     },
     {
       "name": "CommonAdaptive",
@@ -133,14 +102,25 @@
       "public_header_files": "MineCommonUtils/NSObject+DynamicProperty.h"
     },
     {
-      "name": "CoverScope",
-      "source_files": "MineCommonUtils/UIView+CoverScope.{h,m}",
-      "public_header_files": "MineCommonUtils/UIView+CoverScope.h"
-    },
-    {
-      "name": "Chain",
-      "source_files": "MineCommonUtils/UIView+Chain.{h,m}",
-      "public_header_files": "MineCommonUtils/UIView+Chain.h"
+      "name": "ViewUtils",
+      "source_files": [
+        "MineCommonUtils/UIView+CoverScope.{h,m}",
+        "MineCommonUtils/UIView+Chain.{h,m}",
+        "MineCommonUtils/UIView+WidgetPosition.{h,m}",
+        "MineCommonUtils/UIView+Style.{h,m}",
+        "MineCommonUtils/UIView+Hierarchy.{h,m}",
+        "MineCommonUtils/UIViewController+DisplayController.{h,m}",
+        "MineCommonUtils/UIScreen+OrientationSize.{h,m}"
+      ],
+      "public_header_files": [
+        "MineCommonUtils/UIView+CoverScope.h",
+        "MineCommonUtils/UIView+Chain.h",
+        "MineCommonUtils/UIView+WidgetPosition.h",
+        "MineCommonUtils/UIView+Style.h",
+        "MineCommonUtils/UIView+Hierarchy.h",
+        "MineCommonUtils/UIViewController+DisplayController.h",
+        "MineCommonUtils/UIScreen+OrientationSize.h"
+      ]
     },
     {
       "name": "PerformSelector",
@@ -161,11 +141,6 @@
       "name": "IndexPath",
       "source_files": "MineCommonUtils/*+IndexPath.{h,m}",
       "public_header_files": "MineCommonUtils/*+IndexPath.h"
-    },
-    {
-      "name": "HandleEventBlock",
-      "source_files": "MineCommonUtils/UIButton+HandleEventBlock.{h,m}",
-      "public_header_files": "MineCommonUtils/UIButton+HandleEventBlock.h"
     },
     {
       "name": "GCD",

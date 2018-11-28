@@ -1,67 +1,76 @@
 PODS:
-  - MineCommonUtils (1.1.3):
-    - MineCommonUtils/Attribute (= 1.1.3)
-    - MineCommonUtils/Chain (= 1.1.3)
-    - MineCommonUtils/ClosureManage (= 1.1.3)
-    - MineCommonUtils/ColorValue (= 1.1.3)
-    - MineCommonUtils/CommonAdaptive (= 1.1.3)
-    - MineCommonUtils/CoverScope (= 1.1.3)
-    - MineCommonUtils/DistributeSelector (= 1.1.3)
-    - MineCommonUtils/DynamicProperty (= 1.1.3)
-    - MineCommonUtils/FileManager (= 1.1.3)
-    - MineCommonUtils/FunctionOperate (= 1.1.3)
-    - MineCommonUtils/GCD (= 1.1.3)
-    - MineCommonUtils/HandleEventBlock (= 1.1.3)
-    - MineCommonUtils/Hierarchy (= 1.1.3)
-    - MineCommonUtils/IndexPath (= 1.1.3)
-    - MineCommonUtils/JSONLog (= 1.1.3)
-    - MineCommonUtils/OrientationSize (= 1.1.3)
-    - MineCommonUtils/PerformSelector (= 1.1.3)
-    - MineCommonUtils/Persistent (= 1.1.3)
-    - MineCommonUtils/Reuse (= 1.1.3)
-    - MineCommonUtils/Route (= 1.1.3)
-    - MineCommonUtils/StructureView (= 1.1.3)
-    - MineCommonUtils/Style (= 1.1.3)
-    - MineCommonUtils/SubClasses (= 1.1.3)
-    - MineCommonUtils/TimeConvert (= 1.1.3)
-    - MineCommonUtils/TypeEnsure (= 1.1.3)
-    - MineCommonUtils/WidgetPosition (= 1.1.3)
-  - MineCommonUtils/Attribute (1.1.3)
-  - MineCommonUtils/Chain (1.1.3)
-  - MineCommonUtils/ClosureManage (1.1.3)
-  - MineCommonUtils/ColorValue (1.1.3)
-  - MineCommonUtils/CommonAdaptive (1.1.3)
-  - MineCommonUtils/CoverScope (1.1.3)
-  - MineCommonUtils/DistributeSelector (1.1.3)
-  - MineCommonUtils/DynamicProperty (1.1.3)
-  - MineCommonUtils/FileManager (1.1.3)
-  - MineCommonUtils/FunctionOperate (1.1.3)
-  - MineCommonUtils/GCD (1.1.3)
-  - MineCommonUtils/HandleEventBlock (1.1.3)
-  - MineCommonUtils/Hierarchy (1.1.3)
-  - MineCommonUtils/IndexPath (1.1.3)
-  - MineCommonUtils/JSONLog (1.1.3)
-  - MineCommonUtils/OrientationSize (1.1.3)
-  - MineCommonUtils/PerformSelector (1.1.3)
-  - MineCommonUtils/Persistent (1.1.3)
-  - MineCommonUtils/Reuse (1.1.3)
-  - MineCommonUtils/Route (1.1.3)
-  - MineCommonUtils/StructureView (1.1.3)
-  - MineCommonUtils/Style (1.1.3)
-  - MineCommonUtils/SubClasses (1.1.3)
-  - MineCommonUtils/TimeConvert (1.1.3)
-  - MineCommonUtils/TypeEnsure (1.1.3)
-  - MineCommonUtils/WidgetPosition (1.1.3)
+  - MineCommonUtils (1.1.4):
+    - MineCommonUtils/Attribute (= 1.1.4)
+    - MineCommonUtils/ColorValue (= 1.1.4)
+    - MineCommonUtils/CommonAdaptive (= 1.1.4)
+    - MineCommonUtils/DistributeSelector (= 1.1.4)
+    - MineCommonUtils/DynamicProperty (= 1.1.4)
+    - MineCommonUtils/FileManager (= 1.1.4)
+    - MineCommonUtils/FunctionOperate (= 1.1.4)
+    - MineCommonUtils/GCD (= 1.1.4)
+    - MineCommonUtils/IndexPath (= 1.1.4)
+    - MineCommonUtils/JSONLog (= 1.1.4)
+    - MineCommonUtils/PerformSelector (= 1.1.4)
+    - MineCommonUtils/Persistent (= 1.1.4)
+    - MineCommonUtils/Reuse (= 1.1.4)
+    - MineCommonUtils/Route (= 1.1.4)
+    - MineCommonUtils/SubClasses (= 1.1.4)
+    - MineCommonUtils/TimeConvert (= 1.1.4)
+    - MineCommonUtils/TypeEnsure (= 1.1.4)
+    - MineCommonUtils/ViewUtils (= 1.1.4)
+    - RSSwizzle
+  - MineCommonUtils/Attribute (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/ColorValue (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/CommonAdaptive (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/DistributeSelector (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/DynamicProperty (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/FileManager (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/FunctionOperate (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/GCD (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/IndexPath (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/JSONLog (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/PerformSelector (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/Persistent (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/Reuse (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/Route (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/SubClasses (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/TimeConvert (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/TypeEnsure (1.1.4):
+    - RSSwizzle
+  - MineCommonUtils/ViewUtils (1.1.4):
+    - RSSwizzle
+  - RSSwizzle (0.1.0)
 
 DEPENDENCIES:
   - MineCommonUtils (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RSSwizzle
 
 EXTERNAL SOURCES:
   MineCommonUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MineCommonUtils: c75ead40d5e3828ce28a3f56bf54ab5d1e231690
+  MineCommonUtils: dd7e62f1df44e282b9d575457aaa8680f2bbfe7b
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c
 

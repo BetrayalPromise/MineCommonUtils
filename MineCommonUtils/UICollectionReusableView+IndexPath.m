@@ -8,6 +8,7 @@
 
 #import "UICollectionReusableView+IndexPath.h"
 #import <objc/runtime.h>
+#import <RSSwizzle/RSSwizzle.h>
 
 __weak static UICollectionView * __attachCollectionView;
 
