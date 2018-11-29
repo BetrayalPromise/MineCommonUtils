@@ -114,6 +114,11 @@ MineCommonUtils for me
       ss.source_files = 'MineCommonUtils/JSONLog.{h,m}'
       ss.public_header_files = 'MineCommonUtils/JSONLog.h'
   end
+
+  s.subspec 'OCExtension' do |ss|
+      ss.source_files = 'MineCommonUtils/OCExtension.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/OCExtension.h'
+  end
   
   s.dependency 'RSSwizzle'
   
