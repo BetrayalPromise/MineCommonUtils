@@ -1,6 +1,5 @@
 PODS:
   - MineCommonUtils (1.1.6):
-    - MineCommonUtils/Attribute (= 1.1.6)
     - MineCommonUtils/ColorValue (= 1.1.6)
     - MineCommonUtils/CommonAdaptive (= 1.1.6)
     - MineCommonUtils/DistributeSelector (= 1.1.6)
@@ -19,8 +18,6 @@ PODS:
     - MineCommonUtils/TimeConvert (= 1.1.6)
     - MineCommonUtils/TypeEnsure (= 1.1.6)
     - MineCommonUtils/ViewUtils (= 1.1.6)
-    - RSSwizzle
-  - MineCommonUtils/Attribute (1.1.6):
     - RSSwizzle
   - MineCommonUtils/ColorValue (1.1.6):
     - RSSwizzle
@@ -72,7 +69,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MineCommonUtils: 34fffb059fe4074a3e3f08834900f6c2d51b45c3
+  MineCommonUtils: 6fb53041b6deb35af74f4609b33b6f559692a984
   RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
 
 PODFILE CHECKSUM: adc8ca8af4d0bfc2a2429a0bd7670a4685b8d47c

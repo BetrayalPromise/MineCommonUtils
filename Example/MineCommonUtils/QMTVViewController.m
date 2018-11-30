@@ -37,7 +37,7 @@
         source.ableRespose = YES;
     }] attachTo:v];
     NSLog(@"%@", button);
-    GNUString(@"A").attributedText;
+    GNUString(@"A");
     
     widgetAdaptive(20, ^(LogicSize *s) {
         s->size_320 = 1.0;
@@ -45,6 +45,14 @@
         s->size_414 = 1.5;
     });
     
+    @defer {
+        NSLog(@"%@", NSStringFromSelector(_cmd));
+    };
+    
+    NSArray * array = Array$(nil);
+    NSMutableArray * mutableArray = MutableArray$(nil);
+    NSLog(@"%@", array);
+    NSLog(@"%@", mutableArray);
 }
 
 - (void)didReceiveMemoryWarning {

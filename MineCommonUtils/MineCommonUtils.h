@@ -65,8 +65,6 @@
 /// 字符串转色值
 #import "NSString+ColorValue.h"
 
-#import "NSString+Attribute.h"
-
 #import "UITableViewCell+IndexPath.h"
 #import "UITableViewHeaderFooterView+IndexPath.h"
 #import "UICollectionViewCell+IndexPath.h"

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineCommonUtils'
-  s.version          = '1.1.6'
+  s.version          = '1.1.7'
   s.summary          = 'MineCommonUtils.'
   s.description      = <<-DESC
 MineCommonUtils for me
@@ -93,11 +93,6 @@ MineCommonUtils for me
   s.subspec 'ColorValue' do |ss|
       ss.source_files = 'MineCommonUtils/NSString+ColorValue.{h,m}'
       ss.public_header_files = 'MineCommonUtils/NSString+ColorValue.h'
-  end
-  
-  s.subspec 'Attribute' do |ss|
-      ss.source_files = 'MineCommonUtils/NSString+Attribute.{h,m}'
-      ss.public_header_files = 'MineCommonUtils/NSString+Attribute.h'
   end
   
   s.subspec 'IndexPath' do |ss|

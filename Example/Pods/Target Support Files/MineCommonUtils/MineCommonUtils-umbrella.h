@@ -11,7 +11,6 @@
 #endif
 
 #import "MineCommonUtils.h"
-#import "NSString+Attribute.h"
 #import "NSString+ColorValue.h"
 #import "CommonAdaptive.h"
 #import "NSObject+DistributeSelector.h"
