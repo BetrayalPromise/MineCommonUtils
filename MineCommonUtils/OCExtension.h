@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-#define defer \
-    autoreleasepool {} __strong void(^block)(void) __attribute__((cleanup(blockCleanUp), unused)) = ^
+typedef void(^__CLEAN_UP__)(void);
+
+#define concat_(A, B) A ## B
+#define concat(A, B) concat_(A, B)
+
+#define defer autoreleasepool {} __strong __CLEAN_UP__ concat(block, __LINE__) __attribute__((cleanup(blockCleanUp), unused)) = ^
 
 void blockCleanUp(__strong void (^ *block)(void));
 

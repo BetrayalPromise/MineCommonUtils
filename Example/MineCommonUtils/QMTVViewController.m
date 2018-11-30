@@ -48,6 +48,9 @@
     @defer {
         NSLog(@"%@", NSStringFromSelector(_cmd));
     };
+    @defer {
+        NSLog(@"%@", NSStringFromSelector(_cmd));
+    };
     
     NSArray * array = Array$(nil);
     NSMutableArray * mutableArray = MutableArray$(nil);
