@@ -56,6 +56,14 @@
     NSMutableArray * mutableArray = MutableArray$(nil);
     NSLog(@"%@", array);
     NSLog(@"%@", mutableArray);
+    
+    @weak(self);
+    void (^ Block)(void) = ^ (void) {
+        @strong(self);
+        NSLog(@"%@", self);
+    };
+    
+    Block();
 }
 
 - (void)didReceiveMemoryWarning {
