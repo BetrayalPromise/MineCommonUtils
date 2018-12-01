@@ -32,6 +32,7 @@
 #import "UITableView+Reuse.h"
 #import "UIResponder+ResponderChainExtraInformation.h"
 #import "Scheduler.h"
+#import "ThreadExplore.h"
 #import "NSObject+SubClasses.h"
 #import "TimeConvert.h"
 #import "NSObject+TypeEnsure.h"

@@ -101,8 +101,8 @@ MineCommonUtils for me
   end
 
   s.subspec 'Scheduler' do |ss|
-      ss.source_files = 'MineCommonUtils/Scheduler.{h,m}'
-      ss.public_header_files = 'MineCommonUtils/Scheduler'
+      ss.source_files = 'MineCommonUtils/Scheduler.{h,m}', 'MineCommonUtils/ThreadExplore.{h,m}'
+      ss.public_header_files = 'MineCommonUtils/Scheduler.h', 'MineCommonUtils/ThreadExplore.h'
   end
   
   s.subspec 'JSONLog' do |ss|
